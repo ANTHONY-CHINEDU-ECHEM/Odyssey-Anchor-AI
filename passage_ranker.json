@@ -1,0 +1,17 @@
+{
+  "weights": {
+    "bm25": 4.4115,
+    "lsa": 0.1868,
+    "ent_disease": 11.3913,
+    "ent_gene": 5.4407,
+    "ent_term": 6.9311,
+    "kind_fit": 4.9941,
+    "system_fit": 4.3219,
+    "title_overlap": 1.4245,
+    "is_overview": -4.3289,
+    "is_system": -12.4978,
+    "in_context": 15.3952
+  },
+  "candidate_recall": 1.0,
+  "rows": 67315
+}

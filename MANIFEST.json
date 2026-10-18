@@ -1,0 +1,48 @@
+{
+  "built_utc": "2026-10-17T19:55:09+00:00",
+  "hpoa_version": "2026-09-02",
+  "phenopacket_release": "0.1.27",
+  "treatment_sentences_removed_from_mondo": 1021,
+  "tables": {
+    "hpo_terms": {
+      "rows": 20482,
+      "sha256": "ca70ec0fec5d35bf9bfa35bda93440ae7f0ba74ebc0205f6cebd874612e49ace"
+    },
+    "hpo_edges": {
+      "rows": 24436,
+      "sha256": "a8efa766f133fd02d88cf7dd2c3574847ee0f3e9e8563132d5538cef0364b424"
+    },
+    "hpo_alt": {
+      "rows": 3975,
+      "sha256": "e5eaf48a92aa1e0339d66665d61f3393d844dff8351eaab9f458fce2fd8b3deb"
+    },
+    "annotations": {
+      "rows": 286651,
+      "sha256": "9311b4ba89c6f150dd0863d26ec8a912cb94a9a6c916ba9c0de9664caeb86817"
+    },
+    "mondo_classes": {
+      "rows": 32136,
+      "sha256": "6ec83420eea308404c04caf9d05e3b53f57413465757e1b9f5e1a57eedf3c352"
+    },
+    "mondo_edges": {
+      "rows": 46732,
+      "sha256": "a6b8ca3aa7c513eba28f69aa24256bdb8e57a05c5b37938bd3e2f226bd913d06"
+    },
+    "mondo_xrefs": {
+      "rows": 19132,
+      "sha256": "de952a0c95c379fb4c29dcf344aad835fcbbe5ec7308822e58a297f90c74baca"
+    },
+    "disease_genes": {
+      "rows": 12673,
+      "sha256": "03d9b1b7efb673f2d8de70d4c367b6b0f85618f139dd132f53d1413bddd691f7"
+    },
+    "diseases": {
+      "rows": 12880,
+      "sha256": "6bed24a96b3f1df2f064b7cbc97b287dcc6c7dbb046b9389f27d3e40be8885e2"
+    },
+    "cases": {
+      "rows": 10377,
+      "sha256": "6b7f6c1c9eda7c0b2f81fcbde9e1f54eac0e940f6f85db8aaf1d20573b91fa23"
+    }
+  }
+}

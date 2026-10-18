@@ -1,0 +1,17 @@
+{
+  "frozen_utc": "2026-10-17T19:56:04+00:00",
+  "protocol": "cohort groups joined by shared disease; 25% of groups blind; strict source paper removal at scoring",
+  "seed": 20261017,
+  "cases_total": 10377,
+  "cases_eligible": 9134,
+  "dev_cases": 7089,
+  "blind_cases": 2045,
+  "dev_groups": 508,
+  "blind_groups": 170,
+  "blind_diseases": 188,
+  "dev_diseases": 568,
+  "questions_dev": 295,
+  "questions_blind": 255,
+  "blind_case_sha256": "ac0188409e09fbb12c18405f8e6c45f3c2dc307354aa73b2b52dc2a77e9c3e6a",
+  "blind_question_sha256": "a343ed78cd62dc47bcec367a07d6529c272b0e9725bd5a0df6a353fb8abe21d8"
+}

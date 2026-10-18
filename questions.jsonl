@@ -1,0 +1,550 @@
+{"qid":"Q0000","kind":"genes_of_disease","question":"which genes are linked to Leigh syndrome due to pyruvate carboxylase deficiency?","gold":["DIS|OMIM:266150|overview"],"disease_id":"OMIM:266150","split":"blind"}
+{"qid":"Q0001","kind":"genes_of_disease","question":"which genes are linked to STUT1?","gold":["DIS|OMIM:184450|overview"],"disease_id":"OMIM:184450","split":"blind"}
+{"qid":"Q0002","kind":"genes_of_disease","question":"which genes are linked to DES myofibrillar myopathy (disease)?","gold":["DIS|ORPHA:98909|overview"],"disease_id":"ORPHA:98909","split":"dev"}
+{"qid":"Q0003","kind":"genes_of_disease","question":"which genes are linked to Snyder-Robinson syndrome?","gold":["DIS|ORPHA:3063|overview"],"disease_id":"ORPHA:3063","split":"dev"}
+{"qid":"Q0004","kind":"genes_of_disease","question":"which genes are linked to surfactant metabolism dysfunction, pulmonary, type 1?","gold":["DIS|OMIM:265120|overview"],"disease_id":"OMIM:265120","split":"blind"}
+{"qid":"Q0005","kind":"genes_of_disease","question":"which genes are linked to mental retardation, X-linked, with gynecomastia and obesity?","gold":["DIS|ORPHA:3459|overview"],"disease_id":"ORPHA:3459","split":"blind"}
+{"qid":"Q0006","kind":"genes_of_disease","question":"which genes are linked to KCNJ11 maturity-onset diabetes of the young (disease)?","gold":["DIS|OMIM:616329|overview"],"disease_id":"OMIM:616329","split":"blind"}
+{"qid":"Q0007","kind":"genes_of_disease","question":"which genes are linked to bladder exstrophy (disease)?","gold":["DIS|ORPHA:93930|overview"],"disease_id":"ORPHA:93930","split":"blind"}
+{"qid":"Q0008","kind":"genes_of_disease","question":"which genes are linked to HPPA?","gold":["DIS|OMIM:146300|overview"],"disease_id":"OMIM:146300","split":"dev"}
+{"qid":"Q0009","kind":"genes_of_disease","question":"which genes are linked to hereditary prothrombin deficiency?","gold":["DIS|ORPHA:325|overview"],"disease_id":"ORPHA:325","split":"blind"}
+{"qid":"Q0010","kind":"genes_of_disease","question":"which genes are linked to spinocerebellar ataxia, X-linked type 1?","gold":["DIS|OMIM:302500|overview"],"disease_id":"OMIM:302500","split":"blind"}
+{"qid":"Q0011","kind":"genes_of_disease","question":"which genes are linked to surfactant metabolism dysfunction, pulmonary, type 5?","gold":["DIS|OMIM:614370|overview"],"disease_id":"OMIM:614370","split":"dev"}
+{"qid":"Q0012","kind":"genes_of_disease","question":"which genes are linked to Osteocraniosplenic syndrome?","gold":["DIS|OMIM:602361|overview"],"disease_id":"OMIM:602361","split":"blind"}
+{"qid":"Q0013","kind":"genes_of_disease","question":"which genes are linked to BBIP1 Bardet-Biedl syndrome?","gold":["DIS|OMIM:615995|overview"],"disease_id":"OMIM:615995","split":"dev"}
+{"qid":"Q0014","kind":"genes_of_disease","question":"which genes are linked to Joubert syndrome with orofaciodigital defect?","gold":["DIS|ORPHA:2754|overview"],"disease_id":"ORPHA:2754","split":"dev"}
+{"qid":"Q0015","kind":"genes_of_disease","question":"which genes are linked to connective tissue disorder due to LH3 deficiency?","gold":["DIS|OMIM:612394|overview"],"disease_id":"OMIM:612394","split":"blind"}
+{"qid":"Q0016","kind":"genes_of_disease","question":"which genes are linked to polysyndactyly, Haas type?","gold":["DIS|ORPHA:93405|overview"],"disease_id":"ORPHA:93405","split":"dev"}
+{"qid":"Q0017","kind":"genes_of_disease","question":"which genes are linked to EBF3 neurodevelopmental disorder?","gold":["DIS|OMIM:617330|overview"],"disease_id":"OMIM:617330","split":"blind"}
+{"qid":"Q0018","kind":"genes_of_disease","question":"which genes are linked to SCAR20?","gold":["DIS|OMIM:616354|overview"],"disease_id":"OMIM:616354","split":"dev"}
+{"qid":"Q0019","kind":"genes_of_disease","question":"which genes are linked to protein-losing enteropathy?","gold":["DIS|OMIM:226300|overview"],"disease_id":"OMIM:226300","split":"blind"}
+{"qid":"Q0020","kind":"genes_of_disease","question":"which genes are linked to Meckel-Gruber syndrome, type 1?","gold":["DIS|OMIM:249000|overview"],"disease_id":"OMIM:249000","split":"dev"}
+{"qid":"Q0021","kind":"genes_of_disease","question":"which genes are linked to Cornelia De Lange syndrome type 5?","gold":["DIS|OMIM:300882|overview"],"disease_id":"OMIM:300882","split":"dev"}
+{"qid":"Q0022","kind":"genes_of_disease","question":"which genes are linked to Boichis disease?","gold":["DIS|ORPHA:84081|overview"],"disease_id":"ORPHA:84081","split":"blind"}
+{"qid":"Q0023","kind":"genes_of_disease","question":"which genes are linked to Ayazi syndrome?","gold":["DIS|ORPHA:1435|overview"],"disease_id":"ORPHA:1435","split":"dev"}
+{"qid":"Q0024","kind":"genes_of_disease","question":"which genes are linked to intellectual disability, X-linked, syndromic, Borck type?","gold":["DIS|ORPHA:85282|overview"],"disease_id":"ORPHA:85282","split":"dev"}
+{"qid":"Q0025","kind":"genes_of_disease","question":"which genes are linked to cystinuria with mitochondrial disease?","gold":["DIS|ORPHA:163690|overview"],"disease_id":"ORPHA:163690","split":"dev"}
+{"qid":"Q0026","kind":"genes_of_disease","question":"which genes are linked to HOGA1 primary hyperoxaluria?","gold":["DIS|OMIM:613616|overview"],"disease_id":"OMIM:613616","split":"blind"}
+{"qid":"Q0027","kind":"genes_of_disease","question":"which genes are linked to Majeed syndrome?","gold":["DIS|ORPHA:77297|overview"],"disease_id":"ORPHA:77297","split":"dev"}
+{"qid":"Q0028","kind":"genes_of_disease","question":"which genes are linked to Lujan syndrome?","gold":["DIS|OMIM:309520|overview"],"disease_id":"OMIM:309520","split":"dev"}
+{"qid":"Q0029","kind":"genes_of_disease","question":"which genes are linked to KLLN Cowden disease?","gold":["DIS|OMIM:615107|overview"],"disease_id":"OMIM:615107","split":"blind"}
+{"qid":"Q0030","kind":"genes_of_disease","question":"which genes are linked to Waardenburg-Jonker corneal dystrophy?","gold":["DIS|OMIM:602082|overview"],"disease_id":"OMIM:602082","split":"blind"}
+{"qid":"Q0031","kind":"genes_of_disease","question":"which genes are linked to bifidity of the uvula?","gold":["DIS|ORPHA:99771|overview"],"disease_id":"ORPHA:99771","split":"blind"}
+{"qid":"Q0032","kind":"genes_of_disease","question":"which genes are linked to tooth agenesis, selective, type 4?","gold":["DIS|OMIM:150400|overview"],"disease_id":"OMIM:150400","split":"blind"}
+{"qid":"Q0033","kind":"genes_of_disease","question":"which genes are linked to XAN2?","gold":["DIS|OMIM:603592|overview"],"disease_id":"OMIM:603592","split":"dev"}
+{"qid":"Q0034","kind":"genes_of_disease","question":"which genes are linked to hyperinsulinemic hypoglycemia due to HNF1A deficiency?","gold":["DIS|ORPHA:324575|overview"],"disease_id":"ORPHA:324575","split":"blind"}
+{"qid":"Q0035","kind":"genes_of_disease","question":"which genes are linked to Brittle cornea syndrome?","gold":["DIS|ORPHA:90354|overview"],"disease_id":"ORPHA:90354","split":"dev"}
+{"qid":"Q0036","kind":"genes_of_disease","question":"which genes are linked to aplasia cutis congenita recessive?","gold":["DIS|ORPHA:1114|overview"],"disease_id":"ORPHA:1114","split":"dev"}
+{"qid":"Q0037","kind":"genes_of_disease","question":"which genes are linked to isobutyric aciduria?","gold":["DIS|ORPHA:79159|overview"],"disease_id":"ORPHA:79159","split":"dev"}
+{"qid":"Q0038","kind":"genes_of_disease","question":"which genes are linked to osteosarcoma, somatic?","gold":["DIS|OMIM:259500|overview"],"disease_id":"OMIM:259500","split":"dev"}
+{"qid":"Q0039","kind":"genes_of_disease","question":"which genes are linked to GUB syndrome?","gold":["DIS|OMIM:618820|overview"],"disease_id":"OMIM:618820","split":"blind"}
+{"qid":"Q0040","kind":"genes_of_disease","question":"which genes are linked to SLC39A13-related spondylodysplastic EDS?","gold":["DIS|ORPHA:157965|overview"],"disease_id":"ORPHA:157965","split":"blind"}
+{"qid":"Q0041","kind":"genes_of_disease","question":"which genes are linked to Konigsmark syndrome?","gold":["DIS|OMIM:124900|overview"],"disease_id":"OMIM:124900","split":"dev"}
+{"qid":"Q0042","kind":"genes_of_disease","question":"which genes are linked to ABDS?","gold":["DIS|OMIM:601536|overview"],"disease_id":"OMIM:601536","split":"dev"}
+{"qid":"Q0043","kind":"genes_of_disease","question":"which genes are linked to nephropathy and deafness, X-linked?","gold":["DIS|ORPHA:88917|overview"],"disease_id":"ORPHA:88917","split":"dev"}
+{"qid":"Q0044","kind":"genes_of_disease","question":"which genes are linked to Leber congenital amaurosis type 2?","gold":["DIS|OMIM:204100|overview"],"disease_id":"OMIM:204100","split":"blind"}
+{"qid":"Q0045","kind":"genes_of_disease","question":"which genes are linked to pyruvate dehydrogenase complex component E2 deficiency?","gold":["DIS|ORPHA:79244|overview"],"disease_id":"ORPHA:79244","split":"dev"}
+{"qid":"Q0046","kind":"genes_of_disease","question":"which genes are linked to progressive intracranial arterial occlusion?","gold":["DIS|ORPHA:2573|overview"],"disease_id":"ORPHA:2573","split":"dev"}
+{"qid":"Q0047","kind":"genes_of_disease","question":"which genes are linked to Emery-Dreifuss muscular dystrophy, X-linked?","gold":["DIS|ORPHA:98863|overview"],"disease_id":"ORPHA:98863","split":"blind"}
+{"qid":"Q0048","kind":"genes_of_disease","question":"which genes are linked to TP53 Li-Fraumeni syndrome?","gold":["DIS|OMIM:151623|overview"],"disease_id":"OMIM:151623","split":"dev"}
+{"qid":"Q0049","kind":"genes_of_disease","question":"which genes are linked to STSL1?","gold":["DIS|OMIM:210250|overview"],"disease_id":"OMIM:210250","split":"dev"}
+{"qid":"Q0050","kind":"genes_of_disease","question":"which genes are linked to hereditary pediatric Beh\u00e7et-like disease?","gold":["DIS|OMIM:616744|overview"],"disease_id":"OMIM:616744","split":"blind"}
+{"qid":"Q0051","kind":"genes_of_disease","question":"which genes are linked to LAMA4 familial isolated dilated cardiomyopathy?","gold":["DIS|OMIM:615235|overview"],"disease_id":"OMIM:615235","split":"blind"}
+{"qid":"Q0052","kind":"genes_of_disease","question":"which genes are linked to AGPAT2 congenital generalised lipodystrophy (disease)?","gold":["DIS|OMIM:608594|overview"],"disease_id":"OMIM:608594","split":"dev"}
+{"qid":"Q0053","kind":"genes_of_disease","question":"which genes are linked to pericardial constriction and growth failure?","gold":["DIS|OMIM:253250|overview"],"disease_id":"OMIM:253250","split":"blind"}
+{"qid":"Q0054","kind":"genes_of_disease","question":"which genes are linked to CDCBM4?","gold":["DIS|OMIM:615412|overview"],"disease_id":"OMIM:615412","split":"dev"}
+{"qid":"Q0055","kind":"genes_of_disease","question":"which genes are linked to PSP-PAGF?","gold":["DIS|ORPHA:240094|overview"],"disease_id":"ORPHA:240094","split":"blind"}
+{"qid":"Q0056","kind":"genes_of_disease","question":"which genes are linked to USP9X non-syndromic X-linked intellectual disability?","gold":["DIS|OMIM:300919|overview"],"disease_id":"OMIM:300919","split":"dev"}
+{"qid":"Q0057","kind":"genes_of_disease","question":"which genes are linked to Smith Magenis Syndrome?","gold":["DIS|ORPHA:819|overview"],"disease_id":"ORPHA:819","split":"blind"}
+{"qid":"Q0058","kind":"genes_of_disease","question":"which genes are linked to HSPD1 hereditary spastic paraplegia?","gold":["DIS|OMIM:605280|overview"],"disease_id":"OMIM:605280","split":"blind"}
+{"qid":"Q0059","kind":"genes_of_disease","question":"which genes are linked to Cilliers-Beighton syndrome?","gold":["DIS|ORPHA:2114|overview"],"disease_id":"ORPHA:2114","split":"blind"}
+{"qid":"Q0060","kind":"genes_of_disease","question":"which genes are linked to hereditary cranium bifidum?","gold":["DIS|ORPHA:60015|overview"],"disease_id":"ORPHA:60015","split":"dev"}
+{"qid":"Q0061","kind":"genes_of_disease","question":"which genes are linked to Robinow-Unger syndrome?","gold":["DIS|OMIM:300373|overview"],"disease_id":"OMIM:300373","split":"dev"}
+{"qid":"Q0062","kind":"genes_of_disease","question":"which genes are linked to Marshall-Smith syndrome?","gold":["DIS|ORPHA:561|overview"],"disease_id":"ORPHA:561","split":"blind"}
+{"qid":"Q0063","kind":"genes_of_disease","question":"which genes are linked to CAMTA1-related disorder?","gold":["DIS|OMIM:614756|overview"],"disease_id":"OMIM:614756","split":"blind"}
+{"qid":"Q0064","kind":"genes_of_disease","question":"which genes are linked to MRT56?","gold":["DIS|OMIM:617125|overview"],"disease_id":"OMIM:617125","split":"dev"}
+{"qid":"Q0065","kind":"genes_of_disease","question":"which genes are linked to Fuhrmann-Rieger-de Sousa syndrome?","gold":["DIS|OMIM:228930|overview"],"disease_id":"OMIM:228930","split":"dev"}
+{"qid":"Q0066","kind":"genes_of_disease","question":"which genes are linked to mental retardation, X-linked, syndromic, Najm type?","gold":["DIS|ORPHA:163937|overview"],"disease_id":"ORPHA:163937","split":"blind"}
+{"qid":"Q0067","kind":"genes_of_disease","question":"which genes are linked to immunodeficiency with hyper IgE and cognitive impairment?","gold":["DIS|OMIM:615816|overview"],"disease_id":"OMIM:615816","split":"blind"}
+{"qid":"Q0068","kind":"genes_of_disease","question":"which genes are linked to AMD4?","gold":["DIS|OMIM:619636|overview"],"disease_id":"OMIM:619636","split":"blind"}
+{"qid":"Q0069","kind":"genes_of_disease","question":"which genes are linked to KCNQ3 benign neonatal seizures?","gold":["DIS|OMIM:121201|overview"],"disease_id":"OMIM:121201","split":"blind"}
+{"qid":"Q0070","kind":"genes_of_disease","question":"which genes are linked to spermatogenic failure type 12?","gold":["DIS|OMIM:615413|overview"],"disease_id":"OMIM:615413","split":"dev"}
+{"qid":"Q0071","kind":"genes_of_disease","question":"which genes are linked to macrocephaly-intellectual disability-autism syndrome?","gold":["DIS|OMIM:605309|overview"],"disease_id":"OMIM:605309","split":"blind"}
+{"qid":"Q0072","kind":"genes_of_disease","question":"which genes are linked to tetraamelia syndrome 1?","gold":["DIS|OMIM:273395|overview"],"disease_id":"OMIM:273395","split":"dev"}
+{"qid":"Q0073","kind":"genes_of_disease","question":"which genes are linked to Ichthyosis, Erythrokeratodermia Variabilis?","gold":["DIS|ORPHA:316|overview"],"disease_id":"ORPHA:316","split":"dev"}
+{"qid":"Q0074","kind":"genes_of_disease","question":"which genes are linked to heme oxygenase 1 deficiency?","gold":["DIS|OMIM:614034|overview"],"disease_id":"OMIM:614034","split":"blind"}
+{"qid":"Q0075","kind":"genes_of_disease","question":"which genes are linked to PLTEID?","gold":["DIS|OMIM:617718|overview"],"disease_id":"OMIM:617718","split":"dev"}
+{"qid":"Q0076","kind":"genes_of_disease","question":"which genes are linked to SCA26?","gold":["DIS|ORPHA:101112|overview"],"disease_id":"ORPHA:101112","split":"dev"}
+{"qid":"Q0077","kind":"genes_of_disease","question":"which genes are linked to corticotropin-independent macronodular adrenal hyperplasia?","gold":["DIS|OMIM:219080|overview"],"disease_id":"OMIM:219080","split":"dev"}
+{"qid":"Q0078","kind":"genes_of_disease","question":"which genes are linked to neutrophil immunodeficiency syndrome?","gold":["DIS|OMIM:608203|overview"],"disease_id":"OMIM:608203","split":"dev"}
+{"qid":"Q0079","kind":"genes_of_disease","question":"which genes are linked to primary ciliary dyskinesia caused by mutation in DNAJB13?","gold":["DIS|OMIM:617091|overview"],"disease_id":"OMIM:617091","split":"dev"}
+{"qid":"Q0080","kind":"genes_of_disease","question":"which genes are linked to cleft lip\/palate-abnormal thumbs-microcephaly syndrome?","gold":["DIS|ORPHA:2319|overview"],"disease_id":"ORPHA:2319","split":"blind"}
+{"qid":"Q0081","kind":"genes_of_disease","question":"which genes are linked to SQORD?","gold":["DIS|OMIM:619221|overview"],"disease_id":"OMIM:619221","split":"blind"}
+{"qid":"Q0082","kind":"genes_of_disease","question":"which genes are linked to Hirschsprung disease susceptibility?","gold":["DIS|ORPHA:388|overview"],"disease_id":"ORPHA:388","split":"dev"}
+{"qid":"Q0083","kind":"genes_of_disease","question":"which genes are linked to spinocerebellar ataxia and erythrokeratodermia?","gold":["DIS|ORPHA:1955|overview"],"disease_id":"ORPHA:1955","split":"dev"}
+{"qid":"Q0084","kind":"genes_of_disease","question":"which genes are linked to SCAR29?","gold":["DIS|OMIM:619389|overview"],"disease_id":"OMIM:619389","split":"blind"}
+{"qid":"Q0085","kind":"genes_of_disease","question":"which genes are linked to CAPOS syndrome?","gold":["DIS|ORPHA:1171|overview"],"disease_id":"ORPHA:1171","split":"dev"}
+{"qid":"Q0086","kind":"genes_of_disease","question":"which genes are linked to xanthinuria, type 1?","gold":["DIS|OMIM:278300|overview"],"disease_id":"OMIM:278300","split":"dev"}
+{"qid":"Q0087","kind":"genes_of_disease","question":"which genes are linked to Cole-Carpenter syndrome type 1?","gold":["DIS|OMIM:112240|overview"],"disease_id":"OMIM:112240","split":"blind"}
+{"qid":"Q0088","kind":"genes_of_disease","question":"which genes are linked to KIF21A congenital fibrosis of extraocular muscles?","gold":["DIS|OMIM:135700|overview"],"disease_id":"OMIM:135700","split":"blind"}
+{"qid":"Q0089","kind":"genes_of_disease","question":"which genes are linked to rhizomelic chondrodysplasia punctata type 5?","gold":["DIS|OMIM:616716|overview"],"disease_id":"OMIM:616716","split":"dev"}
+{"qid":"Q0090","kind":"genes_of_disease","question":"which genes are linked to PITX2 Axenfeld-Rieger syndrome?","gold":["DIS|OMIM:180500|overview"],"disease_id":"OMIM:180500","split":"dev"}
+{"qid":"Q0091","kind":"genes_of_disease","question":"which genes are linked to Cranioectodermal dysplasia type 2?","gold":["DIS|OMIM:613610|overview"],"disease_id":"OMIM:613610","split":"blind"}
+{"qid":"Q0092","kind":"genes_of_disease","question":"which genes are linked to ACOX1 deficiency?","gold":["DIS|OMIM:264470|overview"],"disease_id":"OMIM:264470","split":"blind"}
+{"qid":"Q0093","kind":"genes_of_disease","question":"which genes are linked to SPG42?","gold":["DIS|OMIM:612539|overview"],"disease_id":"OMIM:612539","split":"blind"}
+{"qid":"Q0094","kind":"genes_of_disease","question":"which genes are linked to progressive encephalopathy-optic atrophy syndrome?","gold":["DIS|ORPHA:2836|overview"],"disease_id":"ORPHA:2836","split":"dev"}
+{"qid":"Q0095","kind":"genes_of_disease","question":"which genes are linked to DDOD syndrome?","gold":["DIS|OMIM:124480|overview"],"disease_id":"OMIM:124480","split":"dev"}
+{"qid":"Q0096","kind":"genes_of_disease","question":"which genes are linked to cortical hyperostosis-syndactyly syndrome?","gold":["DIS|ORPHA:3152|overview"],"disease_id":"ORPHA:3152","split":"dev"}
+{"qid":"Q0097","kind":"genes_of_disease","question":"which genes are linked to mental retardation, autosomal dominant 13?","gold":["DIS|OMIM:614563|overview"],"disease_id":"OMIM:614563","split":"dev"}
+{"qid":"Q0098","kind":"genes_of_disease","question":"which genes are linked to SRXY11?","gold":["DIS|OMIM:273250|overview"],"disease_id":"OMIM:273250","split":"blind"}
+{"qid":"Q0099","kind":"genes_of_disease","question":"which genes are linked to exercise-induced delayed-onset myotonia?","gold":["DIS|ORPHA:99734|overview"],"disease_id":"ORPHA:99734","split":"dev"}
+{"qid":"Q0100","kind":"genes_of_disease","question":"which genes are linked to T-B+ SCID due to JAK3 deficiency?","gold":["DIS|ORPHA:35078|overview"],"disease_id":"ORPHA:35078","split":"dev"}
+{"qid":"Q0101","kind":"genes_of_disease","question":"which genes are linked to NEDCASB?","gold":["DIS|OMIM:619121|overview"],"disease_id":"OMIM:619121","split":"blind"}
+{"qid":"Q0102","kind":"genes_of_disease","question":"which genes are linked to X-linked intellectual disability, Renpenning type?","gold":["DIS|OMIM:309500|overview"],"disease_id":"OMIM:309500","split":"blind"}
+{"qid":"Q0103","kind":"genes_of_disease","question":"which genes are linked to ichthyosis hystrix, Curth Macklin type?","gold":["DIS|ORPHA:79503|overview"],"disease_id":"ORPHA:79503","split":"blind"}
+{"qid":"Q0104","kind":"genes_of_disease","question":"which genes are linked to EIEE71?","gold":["DIS|OMIM:618328|overview"],"disease_id":"OMIM:618328","split":"blind"}
+{"qid":"Q0105","kind":"genes_of_disease","question":"which genes are linked to malignant esophageal tumour?","gold":["DIS|OMIM:133239|overview"],"disease_id":"OMIM:133239","split":"dev"}
+{"qid":"Q0106","kind":"genes_of_disease","question":"which genes are linked to familial hyperaldosteronism type 1?","gold":["DIS|ORPHA:403|overview"],"disease_id":"ORPHA:403","split":"dev"}
+{"qid":"Q0107","kind":"genes_of_disease","question":"which genes are linked to Alzheimer's disease type 17?","gold":["DIS|OMIM:615080|overview"],"disease_id":"OMIM:615080","split":"blind"}
+{"qid":"Q0108","kind":"genes_of_disease","question":"which genes are linked to cardiomyopathy, dilated, type 1E?","gold":["DIS|OMIM:601154|overview"],"disease_id":"OMIM:601154","split":"blind"}
+{"qid":"Q0109","kind":"genes_of_disease","question":"which genes are linked to atrial standstill type 1?","gold":["DIS|OMIM:108770|overview"],"disease_id":"OMIM:108770","split":"blind"}
+{"qid":"Q0110","kind":"inheritance","question":"how is metaphyseal chondrodysplasia Schmid type inherited","gold":["DIS|OMIM:156500|overview"],"disease_id":"OMIM:156500","split":"dev"}
+{"qid":"Q0111","kind":"inheritance","question":"how is RILDBC2 inherited","gold":["DIS|OMIM:619013|overview"],"disease_id":"OMIM:619013","split":"dev"}
+{"qid":"Q0112","kind":"inheritance","question":"how is proximal monosomy 16p11.2 inherited","gold":["DIS|OMIM:611913|overview"],"disease_id":"OMIM:611913","split":"dev"}
+{"qid":"Q0113","kind":"inheritance","question":"how is DHFR deficiency inherited","gold":["DIS|OMIM:613839|overview"],"disease_id":"OMIM:613839","split":"dev"}
+{"qid":"Q0114","kind":"inheritance","question":"how is DRRS inherited","gold":["DIS|OMIM:607323|overview"],"disease_id":"OMIM:607323","split":"blind"}
+{"qid":"Q0115","kind":"inheritance","question":"how is LAMA4 familial isolated dilated cardiomyopathy inherited","gold":["DIS|OMIM:615235|overview"],"disease_id":"OMIM:615235","split":"dev"}
+{"qid":"Q0116","kind":"inheritance","question":"how is cranioectodermal dysplasia type 4 inherited","gold":["DIS|OMIM:614378|overview"],"disease_id":"OMIM:614378","split":"blind"}
+{"qid":"Q0117","kind":"inheritance","question":"how is Coats plus syndrome caused by mutation in CTC1 inherited","gold":["DIS|OMIM:612199|overview"],"disease_id":"OMIM:612199","split":"dev"}
+{"qid":"Q0118","kind":"inheritance","question":"how is IFNAR1 deficiency inherited","gold":["DIS|OMIM:619935|overview"],"disease_id":"OMIM:619935","split":"dev"}
+{"qid":"Q0119","kind":"inheritance","question":"how is CILD15 inherited","gold":["DIS|OMIM:613808|overview"],"disease_id":"OMIM:613808","split":"dev"}
+{"qid":"Q0120","kind":"inheritance","question":"how is DEE67 inherited","gold":["DIS|OMIM:618141|overview"],"disease_id":"OMIM:618141","split":"blind"}
+{"qid":"Q0121","kind":"inheritance","question":"how is Saldino-Mainzer syndrome inherited","gold":["DIS|OMIM:266920|overview"],"disease_id":"OMIM:266920","split":"dev"}
+{"qid":"Q0122","kind":"inheritance","question":"how is ISCA2 fatal multiple mitochondrial dysfunctions syndrome inherited","gold":["DIS|OMIM:616370|overview"],"disease_id":"OMIM:616370","split":"dev"}
+{"qid":"Q0123","kind":"inheritance","question":"how is benign COX deficiency inherited","gold":["DIS|OMIM:500009|overview"],"disease_id":"OMIM:500009","split":"dev"}
+{"qid":"Q0124","kind":"inheritance","question":"how is hyperphosphatasia with mental retardation syndrome type 4 inherited","gold":["DIS|OMIM:615716|overview"],"disease_id":"OMIM:615716","split":"blind"}
+{"qid":"Q0125","kind":"inheritance","question":"how is BEEC inherited","gold":["DIS|OMIM:600057|overview"],"disease_id":"OMIM:600057","split":"blind"}
+{"qid":"Q0126","kind":"inheritance","question":"how is cardiomyopathy, dilated, type 1L inherited","gold":["DIS|OMIM:606685|overview"],"disease_id":"OMIM:606685","split":"blind"}
+{"qid":"Q0127","kind":"inheritance","question":"how is hypothalamic hamartoblastoma syndrome inherited","gold":["DIS|OMIM:146510|overview"],"disease_id":"OMIM:146510","split":"blind"}
+{"qid":"Q0128","kind":"inheritance","question":"how is maple syrup urine disease type 2 inherited","gold":["DIS|OMIM:620699|overview"],"disease_id":"OMIM:620699","split":"dev"}
+{"qid":"Q0129","kind":"inheritance","question":"how is acromegaly-cutis verticis gyrata-corneal leukoma syndrome inherited","gold":["DIS|OMIM:102100|overview"],"disease_id":"OMIM:102100","split":"dev"}
+{"qid":"Q0130","kind":"inheritance","question":"how is hypotrichosis caused by mutation in KRT71 inherited","gold":["DIS|OMIM:615896|overview"],"disease_id":"OMIM:615896","split":"blind"}
+{"qid":"Q0131","kind":"inheritance","question":"how is nemaline myopathy type 9 inherited","gold":["DIS|OMIM:615731|overview"],"disease_id":"OMIM:615731","split":"dev"}
+{"qid":"Q0132","kind":"inheritance","question":"how is Brachmann-De lange-like facial changes with microcephaly, metatarsusadductus, and developmental delay inherited","gold":["DIS|OMIM:112370|overview"],"disease_id":"OMIM:112370","split":"blind"}
+{"qid":"Q0133","kind":"inheritance","question":"how is MC4DN3 inherited","gold":["DIS|OMIM:619046|overview"],"disease_id":"OMIM:619046","split":"dev"}
+{"qid":"Q0134","kind":"inheritance","question":"how is COA6 fatal infantile encephalocardiomyopathy inherited","gold":["DIS|OMIM:616501|overview"],"disease_id":"OMIM:616501","split":"dev"}
+{"qid":"Q0135","kind":"inheritance","question":"how is BBS3 inherited","gold":["DIS|OMIM:600151|overview"],"disease_id":"OMIM:600151","split":"dev"}
+{"qid":"Q0136","kind":"inheritance","question":"how is cataract, ataxia, short stature, and mental retardation inherited","gold":["DIS|OMIM:300619|overview"],"disease_id":"OMIM:300619","split":"dev"}
+{"qid":"Q0137","kind":"inheritance","question":"how is developmental and epileptic encephalopathy 87 inherited","gold":["DIS|OMIM:618916|overview"],"disease_id":"OMIM:618916","split":"blind"}
+{"qid":"Q0138","kind":"inheritance","question":"how is NR5A1 primary ovarian failure inherited","gold":["DIS|OMIM:612964|overview"],"disease_id":"OMIM:612964","split":"dev"}
+{"qid":"Q0139","kind":"inheritance","question":"how is postaxial polydactyly-intellectual disability syndrome inherited","gold":["DIS|OMIM:258200|overview"],"disease_id":"OMIM:258200","split":"blind"}
+{"qid":"Q0140","kind":"inheritance","question":"how is AMC5 inherited","gold":["DIS|OMIM:618947|overview"],"disease_id":"OMIM:618947","split":"blind"}
+{"qid":"Q0141","kind":"inheritance","question":"how is branchiootic syndrome type 2 inherited","gold":["DIS|OMIM:120502|overview"],"disease_id":"OMIM:120502","split":"dev"}
+{"qid":"Q0142","kind":"inheritance","question":"how is neuronal ceroid lipofuscinosis, late infantile, variant inherited","gold":["DIS|OMIM:601780|overview"],"disease_id":"OMIM:601780","split":"dev"}
+{"qid":"Q0143","kind":"inheritance","question":"how is malignant cervix uteri neoplasm inherited","gold":["DIS|OMIM:603956|overview"],"disease_id":"OMIM:603956","split":"blind"}
+{"qid":"Q0144","kind":"inheritance","question":"how is caudal regression inherited","gold":["DIS|OMIM:600145|overview"],"disease_id":"OMIM:600145","split":"blind"}
+{"qid":"Q0145","kind":"inheritance","question":"how is NEDCAM inherited","gold":["DIS|OMIM:619333|overview"],"disease_id":"OMIM:619333","split":"dev"}
+{"qid":"Q0146","kind":"inheritance","question":"how is Wells-Jankovic syndrome inherited","gold":["DIS|OMIM:312910|overview"],"disease_id":"OMIM:312910","split":"dev"}
+{"qid":"Q0147","kind":"inheritance","question":"how is myoclonic dystonia type 26 inherited","gold":["DIS|OMIM:616398|overview"],"disease_id":"OMIM:616398","split":"blind"}
+{"qid":"Q0148","kind":"inheritance","question":"how is Kenny-Caffey syndrome type 1 inherited","gold":["DIS|OMIM:244460|overview"],"disease_id":"OMIM:244460","split":"dev"}
+{"qid":"Q0149","kind":"inheritance","question":"how is CMT2L inherited","gold":["DIS|OMIM:608673|overview"],"disease_id":"OMIM:608673","split":"dev"}
+{"qid":"Q0150","kind":"inheritance","question":"how is EDS progeroid type 1 inherited","gold":["DIS|OMIM:130070|overview"],"disease_id":"OMIM:130070","split":"dev"}
+{"qid":"Q0151","kind":"inheritance","question":"how is SPG82 inherited","gold":["DIS|OMIM:618770|overview"],"disease_id":"OMIM:618770","split":"dev"}
+{"qid":"Q0152","kind":"inheritance","question":"how is papa inherited","gold":["DIS|OMIM:604416|overview"],"disease_id":"OMIM:604416","split":"dev"}
+{"qid":"Q0153","kind":"inheritance","question":"how is hereditary dermatitis herpetiformis inherited","gold":["DIS|OMIM:601230|overview"],"disease_id":"OMIM:601230","split":"dev"}
+{"qid":"Q0154","kind":"inheritance","question":"how is DYT-GCH1 inherited","gold":["DIS|OMIM:128230|overview"],"disease_id":"OMIM:128230","split":"dev"}
+{"qid":"Q0155","kind":"inheritance","question":"how is OTSC7 inherited","gold":["DIS|OMIM:611572|overview"],"disease_id":"OMIM:611572","split":"dev"}
+{"qid":"Q0156","kind":"inheritance","question":"how is Meige lymphedema inherited","gold":["DIS|OMIM:153200|overview"],"disease_id":"OMIM:153200","split":"dev"}
+{"qid":"Q0157","kind":"inheritance","question":"how is cardiomyopathy, familial restrictive, type 1 inherited","gold":["DIS|OMIM:115210|overview"],"disease_id":"OMIM:115210","split":"blind"}
+{"qid":"Q0158","kind":"inheritance","question":"how is EPHA2 cataract (disease) inherited","gold":["DIS|OMIM:116600|overview"],"disease_id":"OMIM:116600","split":"dev"}
+{"qid":"Q0159","kind":"inheritance","question":"how is Torg syndrome inherited","gold":["DIS|OMIM:259600|overview"],"disease_id":"OMIM:259600","split":"blind"}
+{"qid":"Q0160","kind":"inheritance","question":"how is immunodeficiency with factor H anomaly inherited","gold":["DIS|OMIM:609814|overview"],"disease_id":"OMIM:609814","split":"dev"}
+{"qid":"Q0161","kind":"inheritance","question":"how is Pulmonic stenosis, atrial septal defect, and unique electrocardiographicabnormalities inherited","gold":["DIS|OMIM:178650|overview"],"disease_id":"OMIM:178650","split":"blind"}
+{"qid":"Q0162","kind":"inheritance","question":"how is HDL1 inherited","gold":["DIS|OMIM:603218|overview"],"disease_id":"OMIM:603218","split":"blind"}
+{"qid":"Q0163","kind":"inheritance","question":"how is Pulmonary fibrosis and\/or bone marrow failure, telomere-related, 3 inherited","gold":["DIS|OMIM:616373|overview"],"disease_id":"OMIM:616373","split":"dev"}
+{"qid":"Q0164","kind":"inheritance","question":"how is IMD96 inherited","gold":["DIS|OMIM:619774|overview"],"disease_id":"OMIM:619774","split":"blind"}
+{"qid":"Q0165","kind":"inheritance","question":"how is meckel syndrome 9 inherited","gold":["DIS|OMIM:614209|overview"],"disease_id":"OMIM:614209","split":"dev"}
+{"qid":"Q0166","kind":"inheritance","question":"how is ABCC6 arterial calcification of infancy inherited","gold":["DIS|OMIM:614473|overview"],"disease_id":"OMIM:614473","split":"blind"}
+{"qid":"Q0167","kind":"inheritance","question":"how is XMEA inherited","gold":["DIS|OMIM:310440|overview"],"disease_id":"OMIM:310440","split":"blind"}
+{"qid":"Q0168","kind":"inheritance","question":"how is CC2D2A Meckel syndrome inherited","gold":["DIS|OMIM:612284|overview"],"disease_id":"OMIM:612284","split":"blind"}
+{"qid":"Q0169","kind":"inheritance","question":"how is pyridoxine 5' phosphate oxidase deficiency inherited","gold":["DIS|OMIM:610090|overview"],"disease_id":"OMIM:610090","split":"dev"}
+{"qid":"Q0170","kind":"inheritance","question":"how is diabetes insipidus, nephrogenic, autosomal inherited","gold":["DIS|OMIM:125800|overview"],"disease_id":"OMIM:125800","split":"dev"}
+{"qid":"Q0171","kind":"inheritance","question":"how is Frasier syndrome, autosomal dominant, somatic mutation inherited","gold":["DIS|OMIM:136680|overview"],"disease_id":"OMIM:136680","split":"blind"}
+{"qid":"Q0172","kind":"inheritance","question":"how is OPA6 inherited","gold":["DIS|OMIM:258500|overview"],"disease_id":"OMIM:258500","split":"blind"}
+{"qid":"Q0173","kind":"inheritance","question":"how is BLOC1S6 Hermansky-Pudlak syndrome inherited","gold":["DIS|OMIM:614171|overview"],"disease_id":"OMIM:614171","split":"blind"}
+{"qid":"Q0174","kind":"inheritance","question":"how is Cowden syndrome type 6 inherited","gold":["DIS|OMIM:615109|overview"],"disease_id":"OMIM:615109","split":"blind"}
+{"qid":"Q0175","kind":"inheritance","question":"how is Scapuloiliac dysostosis inherited","gold":["DIS|OMIM:169550|overview"],"disease_id":"OMIM:169550","split":"blind"}
+{"qid":"Q0176","kind":"inheritance","question":"how is migraine with or without aura, susceptibility to, type 6 inherited","gold":["DIS|OMIM:607516|overview"],"disease_id":"OMIM:607516","split":"dev"}
+{"qid":"Q0177","kind":"inheritance","question":"how is Bardet-Biedl syndrome caused by mutation in TTC8 inherited","gold":["DIS|OMIM:615985|overview"],"disease_id":"OMIM:615985","split":"blind"}
+{"qid":"Q0178","kind":"inheritance","question":"how is MDPT1 inherited","gold":["DIS|OMIM:169150|overview"],"disease_id":"OMIM:169150","split":"dev"}
+{"qid":"Q0179","kind":"inheritance","question":"how is combined immunodeficiency due to IKAROS deficiency inherited","gold":["DIS|OMIM:616873|overview"],"disease_id":"OMIM:616873","split":"blind"}
+{"qid":"Q0180","kind":"inheritance","question":"how is DEE104 inherited","gold":["DIS|OMIM:619970|overview"],"disease_id":"OMIM:619970","split":"dev"}
+{"qid":"Q0181","kind":"inheritance","question":"how is deficiency 1n ELF4, X-linked inherited","gold":["DIS|OMIM:301074|overview"],"disease_id":"OMIM:301074","split":"dev"}
+{"qid":"Q0182","kind":"inheritance","question":"how is median arcuate ligament syndrome inherited","gold":["DIS|OMIM:116870|overview"],"disease_id":"OMIM:116870","split":"blind"}
+{"qid":"Q0183","kind":"inheritance","question":"how is YY1 haploinsufficiency syndrome inherited","gold":["DIS|OMIM:617557|overview"],"disease_id":"OMIM:617557","split":"blind"}
+{"qid":"Q0184","kind":"inheritance","question":"how is DBA21 inherited","gold":["DIS|OMIM:620072|overview"],"disease_id":"OMIM:620072","split":"blind"}
+{"qid":"Q0185","kind":"inheritance","question":"how is thrombophilia 2 due to activated protein C resistance inherited","gold":["DIS|OMIM:188055|overview"],"disease_id":"OMIM:188055","split":"dev"}
+{"qid":"Q0186","kind":"inheritance","question":"how is Gordon-Holmes syndrome inherited","gold":["DIS|OMIM:212840|overview"],"disease_id":"OMIM:212840","split":"blind"}
+{"qid":"Q0187","kind":"inheritance","question":"how is OLMS2 inherited","gold":["DIS|OMIM:619208|overview"],"disease_id":"OMIM:619208","split":"dev"}
+{"qid":"Q0188","kind":"inheritance","question":"how is arrhythmogenic right ventricular cardiomyopathy 2 inherited","gold":["DIS|OMIM:604772|overview"],"disease_id":"OMIM:604772","split":"blind"}
+{"qid":"Q0189","kind":"inheritance","question":"how is SCID due to complete RAG1\/2 deficiency inherited","gold":["DIS|OMIM:601457|overview"],"disease_id":"OMIM:601457","split":"dev"}
+{"qid":"Q0190","kind":"inheritance","question":"how is melanoma, cutaneous malignant, 9 inherited","gold":["DIS|OMIM:615134|overview"],"disease_id":"OMIM:615134","split":"dev"}
+{"qid":"Q0191","kind":"inheritance","question":"how is oculoectodermal syndrome, somatic inherited","gold":["DIS|OMIM:600268|overview"],"disease_id":"OMIM:600268","split":"blind"}
+{"qid":"Q0192","kind":"inheritance","question":"how is PEOB4 inherited","gold":["DIS|OMIM:617070|overview"],"disease_id":"OMIM:617070","split":"dev"}
+{"qid":"Q0193","kind":"inheritance","question":"how is Casamassima-Morton-Nance syndrome inherited","gold":["DIS|OMIM:271520|overview"],"disease_id":"OMIM:271520","split":"dev"}
+{"qid":"Q0194","kind":"inheritance","question":"how is JBTS23 inherited","gold":["DIS|OMIM:616490|overview"],"disease_id":"OMIM:616490","split":"dev"}
+{"qid":"Q0195","kind":"inheritance","question":"how is ATP7A-related distal motor neuropathy inherited","gold":["DIS|OMIM:300489|overview"],"disease_id":"OMIM:300489","split":"blind"}
+{"qid":"Q0196","kind":"inheritance","question":"how is Thrombocytopathy-asplenia-miosis syndrome inherited","gold":["DIS|OMIM:185070|overview"],"disease_id":"OMIM:185070","split":"dev"}
+{"qid":"Q0197","kind":"inheritance","question":"how is NDH syndrome inherited","gold":["DIS|OMIM:610199|overview"],"disease_id":"OMIM:610199","split":"dev"}
+{"qid":"Q0198","kind":"inheritance","question":"how is Congenital disorder of glycosylation, type IIr inherited","gold":["DIS|OMIM:301045|overview"],"disease_id":"OMIM:301045","split":"blind"}
+{"qid":"Q0199","kind":"inheritance","question":"how is AGM9 inherited","gold":["DIS|OMIM:619693|overview"],"disease_id":"OMIM:619693","split":"blind"}
+{"qid":"Q0200","kind":"inheritance","question":"how is 3Mc syndrome type 3 inherited","gold":["DIS|OMIM:248340|overview"],"disease_id":"OMIM:248340","split":"dev"}
+{"qid":"Q0201","kind":"inheritance","question":"how is myxoid extraosseous chondrosarcoma inherited","gold":["DIS|OMIM:612237|overview"],"disease_id":"OMIM:612237","split":"blind"}
+{"qid":"Q0202","kind":"inheritance","question":"how is TICAM1 herpes simplex encephalitis inherited","gold":["DIS|OMIM:614850|overview"],"disease_id":"OMIM:614850","split":"blind"}
+{"qid":"Q0203","kind":"inheritance","question":"how is Charcot-Marie-Tooth disease type 2A2B inherited","gold":["DIS|OMIM:617087|overview"],"disease_id":"OMIM:617087","split":"dev"}
+{"qid":"Q0204","kind":"inheritance","question":"how is VUR1 inherited","gold":["DIS|OMIM:193000|overview"],"disease_id":"OMIM:193000","split":"blind"}
+{"qid":"Q0205","kind":"inheritance","question":"how is SCA41 inherited","gold":["DIS|OMIM:616410|overview"],"disease_id":"OMIM:616410","split":"blind"}
+{"qid":"Q0206","kind":"inheritance","question":"how is factor V Quebec inherited","gold":["DIS|OMIM:601709|overview"],"disease_id":"OMIM:601709","split":"blind"}
+{"qid":"Q0207","kind":"inheritance","question":"how is trisomy 17p11.2-p12 inherited","gold":["DIS|OMIM:616652|overview"],"disease_id":"OMIM:616652","split":"blind"}
+{"qid":"Q0208","kind":"inheritance","question":"how is Aicardi-Goutieres syndrome caused by mutation in SAMHD1 inherited","gold":["DIS|OMIM:612952|overview"],"disease_id":"OMIM:612952","split":"blind"}
+{"qid":"Q0209","kind":"inheritance","question":"how is intellectual disability, X-linked 77 inherited","gold":["DIS|OMIM:300454|overview"],"disease_id":"OMIM:300454","split":"dev"}
+{"qid":"Q0210","kind":"inheritance","question":"how is chondrodysplasia-disorder of sex development syndrome inherited","gold":["DIS|OMIM:600092|overview"],"disease_id":"OMIM:600092","split":"blind"}
+{"qid":"Q0211","kind":"inheritance","question":"how is SPG62 inherited","gold":["DIS|OMIM:615681|overview"],"disease_id":"OMIM:615681","split":"dev"}
+{"qid":"Q0212","kind":"inheritance","question":"how is spinocerebellar ataxia 43; SCA43 inherited","gold":["DIS|OMIM:617018|overview"],"disease_id":"OMIM:617018","split":"blind"}
+{"qid":"Q0213","kind":"inheritance","question":"how is CD3-Epsilon deficiency inherited","gold":["DIS|OMIM:615615|overview"],"disease_id":"OMIM:615615","split":"blind"}
+{"qid":"Q0214","kind":"inheritance","question":"how is craniofrontonasal dysplasia, X-linked dominant inherited","gold":["DIS|OMIM:304110|overview"],"disease_id":"OMIM:304110","split":"dev"}
+{"qid":"Q0215","kind":"inheritance","question":"how is CSNB1I inherited","gold":["DIS|OMIM:618555|overview"],"disease_id":"OMIM:618555","split":"blind"}
+{"qid":"Q0216","kind":"inheritance","question":"how is UCHL1 young-onset Parkinson disease inherited","gold":["DIS|OMIM:613643|overview"],"disease_id":"OMIM:613643","split":"blind"}
+{"qid":"Q0217","kind":"inheritance","question":"how is immunodeficiency 57 with autoinflammation inherited","gold":["DIS|OMIM:618108|overview"],"disease_id":"OMIM:618108","split":"blind"}
+{"qid":"Q0218","kind":"inheritance","question":"how is pulmonary lymphangiomatosis inherited","gold":["DIS|OMIM:265300|overview"],"disease_id":"OMIM:265300","split":"dev"}
+{"qid":"Q0219","kind":"inheritance","question":"how is BRGDA6 inherited","gold":["DIS|OMIM:613119|overview"],"disease_id":"OMIM:613119","split":"blind"}
+{"qid":"Q0220","kind":"define_feature","question":"what is meant by increased whr","gold":["HPO|HP:0031819"],"disease_id":null,"split":"blind"}
+{"qid":"Q0221","kind":"define_feature","question":"what is meant by pr interval depression","gold":["HPO|HP:0031594"],"disease_id":null,"split":"blind"}
+{"qid":"Q0222","kind":"define_feature","question":"what is meant by soft tissue sarcomas","gold":["HPO|HP:0030448"],"disease_id":null,"split":"blind"}
+{"qid":"Q0223","kind":"define_feature","question":"what is meant by bilateral generalised polymicrogyria","gold":["HPO|HP:0032410"],"disease_id":null,"split":"blind"}
+{"qid":"Q0224","kind":"define_feature","question":"what is meant by abnormally small eyelid","gold":["HPO|HP:0430010"],"disease_id":null,"split":"blind"}
+{"qid":"Q0225","kind":"define_feature","question":"what is meant by thick tissue around the nose","gold":["HPO|HP:0012812"],"disease_id":null,"split":"dev"}
+{"qid":"Q0226","kind":"define_feature","question":"what is meant by fragmentation of the end part of the ring finger bones","gold":["HPO|HP:0009397"],"disease_id":null,"split":"dev"}
+{"qid":"Q0227","kind":"define_feature","question":"what is meant by fatty liver","gold":["HPO|HP:0001397"],"disease_id":null,"split":"blind"}
+{"qid":"Q0228","kind":"define_feature","question":"what is meant by overgrowth of one leg","gold":["HPO|HP:0100553"],"disease_id":null,"split":"dev"}
+{"qid":"Q0229","kind":"define_feature","question":"what is meant by distal sensory loss of proprioception","gold":["HPO|HP:0006858"],"disease_id":null,"split":"blind"}
+{"qid":"Q0230","kind":"define_feature","question":"what is meant by curved ring finger bone","gold":["HPO|HP:0009285"],"disease_id":null,"split":"dev"}
+{"qid":"Q0231","kind":"define_feature","question":"what is meant by intraluminal thrombi within interlobular arterial lumen","gold":["HPO|HP:0033950"],"disease_id":null,"split":"dev"}
+{"qid":"Q0232","kind":"define_feature","question":"what is meant by short-trunk dwarfism identifiable during childhood","gold":["HPO|HP:0008922"],"disease_id":null,"split":"blind"}
+{"qid":"Q0233","kind":"define_feature","question":"what is meant by ph-positive acute lymphoblastic leukaemia","gold":["HPO|HP:0004848"],"disease_id":null,"split":"dev"}
+{"qid":"Q0234","kind":"define_feature","question":"what is meant by progressively abnormally small skull","gold":["HPO|HP:0000253"],"disease_id":null,"split":"dev"}
+{"qid":"Q0235","kind":"define_feature","question":"what is meant by abnormality of the zygomatic arch","gold":["HPO|HP:0005557"],"disease_id":null,"split":"blind"}
+{"qid":"Q0236","kind":"define_feature","question":"what is meant by violaceous plaque","gold":["HPO|HP:0025474"],"disease_id":null,"split":"blind"}
+{"qid":"Q0237","kind":"define_feature","question":"what is meant by menetrier disease","gold":["HPO|HP:0005246"],"disease_id":null,"split":"blind"}
+{"qid":"Q0238","kind":"define_feature","question":"what is meant by round mid-back","gold":["HPO|HP:0004633"],"disease_id":null,"split":"blind"}
+{"qid":"Q0239","kind":"define_feature","question":"what is meant by saggy upper eyelid skin","gold":["HPO|HP:0010749"],"disease_id":null,"split":"blind"}
+{"qid":"Q0240","kind":"define_feature","question":"what is meant by lymphatic obstruction","gold":["HPO|HP:0001004"],"disease_id":null,"split":"blind"}
+{"qid":"Q0241","kind":"define_feature","question":"what is meant by hole in the back of the eye","gold":["HPO|HP:0000480"],"disease_id":null,"split":"blind"}
+{"qid":"Q0242","kind":"define_feature","question":"what is meant by invasive pharyngitis","gold":["HPO|HP:5210254"],"disease_id":null,"split":"blind"}
+{"qid":"Q0243","kind":"define_feature","question":"what is meant by abnormal circulating sulfur amino acid concentration","gold":["HPO|HP:0004339"],"disease_id":null,"split":"dev"}
+{"qid":"Q0244","kind":"define_feature","question":"what is meant by gall bladder perforation","gold":["HPO|HP:0030154"],"disease_id":null,"split":"dev"}
+{"qid":"Q0245","kind":"define_feature","question":"what is meant by premature ejaculation","gold":["HPO|HP:0012876"],"disease_id":null,"split":"blind"}
+{"qid":"Q0246","kind":"define_feature","question":"what is meant by abnormal mch","gold":["HPO|HP:0025546"],"disease_id":null,"split":"dev"}
+{"qid":"Q0247","kind":"define_feature","question":"what is meant by optic chiasm hypoplasia","gold":["HPO|HP:0034311"],"disease_id":null,"split":"blind"}
+{"qid":"Q0248","kind":"define_feature","question":"what is meant by short 3rd long bone of foot","gold":["HPO|HP:0004686"],"disease_id":null,"split":"blind"}
+{"qid":"Q0249","kind":"define_feature","question":"what is meant by tachylogia","gold":["HPO|HP:0031937"],"disease_id":null,"split":"dev"}
+{"qid":"Q0250","kind":"define_feature","question":"what is meant by scalloping of surface of liver and spleen","gold":["HPO|HP:6000628"],"disease_id":null,"split":"blind"}
+{"qid":"Q0251","kind":"define_feature","question":"what is meant by intramyocardial coronary artery course","gold":["HPO|HP:0025490"],"disease_id":null,"split":"dev"}
+{"qid":"Q0252","kind":"define_feature","question":"what is meant by decreased proportion of naive t cells","gold":["HPO|HP:0031397"],"disease_id":null,"split":"blind"}
+{"qid":"Q0253","kind":"define_feature","question":"what is meant by blood spots","gold":["HPO|HP:0000979"],"disease_id":null,"split":"dev"}
+{"qid":"Q0254","kind":"define_feature","question":"what is meant by bony island of the tympanic membrane","gold":["HPO|HP:6001492"],"disease_id":null,"split":"dev"}
+{"qid":"Q0255","kind":"define_feature","question":"what is meant by abnormality of rpe","gold":["HPO|HP:0007703"],"disease_id":null,"split":"dev"}
+{"qid":"Q0256","kind":"define_feature","question":"what is meant by hypoechoic breast nodule","gold":["HPO|HP:6000630"],"disease_id":null,"split":"blind"}
+{"qid":"Q0257","kind":"define_feature","question":"what is meant by dilatation of a bronchial artery","gold":["HPO|HP:0033390"],"disease_id":null,"split":"dev"}
+{"qid":"Q0258","kind":"define_feature","question":"what is meant by happy aspect","gold":["HPO|HP:0100024"],"disease_id":null,"split":"dev"}
+{"qid":"Q0259","kind":"define_feature","question":"what is meant by increased level of galactitol in erythrocytes","gold":["HPO|HP:0410064"],"disease_id":null,"split":"dev"}
+{"qid":"Q0260","kind":"define_feature","question":"what is meant by increased cystatin-c level in blood","gold":["HPO|HP:0032998"],"disease_id":null,"split":"dev"}
+{"qid":"Q0261","kind":"define_feature","question":"what is meant by fasting triggered symptoms","gold":["HPO|HP:0025212"],"disease_id":null,"split":"dev"}
+{"qid":"Q0262","kind":"define_feature","question":"what is meant by cerebral colloid bodies","gold":["HPO|HP:0100319"],"disease_id":null,"split":"dev"}
+{"qid":"Q0263","kind":"define_feature","question":"what is meant by low frontal hairline","gold":["HPO|HP:0000294"],"disease_id":null,"split":"dev"}
+{"qid":"Q0264","kind":"define_feature","question":"what is meant by enlarged end part of the ring finger bones","gold":["HPO|HP:0009396"],"disease_id":null,"split":"blind"}
+{"qid":"Q0265","kind":"define_feature","question":"what is meant by sedac","gold":["HPO|HP:6000849"],"disease_id":null,"split":"blind"}
+{"qid":"Q0266","kind":"define_feature","question":"what is meant by straight collarbone","gold":["HPO|HP:0006587"],"disease_id":null,"split":"blind"}
+{"qid":"Q0267","kind":"define_feature","question":"what is meant by slender innermost bone of finger","gold":["HPO|HP:0012297"],"disease_id":null,"split":"blind"}
+{"qid":"Q0268","kind":"define_feature","question":"what is meant by onion bulb formations","gold":["HPO|HP:0003383"],"disease_id":null,"split":"blind"}
+{"qid":"Q0269","kind":"define_feature","question":"what is meant by missing more than six teeth","gold":["HPO|HP:0000677"],"disease_id":null,"split":"blind"}
+{"qid":"Q0270","kind":"define_feature","question":"what is meant by abnormal naive cd8 t cell proportion","gold":["HPO|HP:0410374"],"disease_id":null,"split":"blind"}
+{"qid":"Q0271","kind":"define_feature","question":"what is meant by high urine trimethylamine levels","gold":["HPO|HP:0003614"],"disease_id":null,"split":"blind"}
+{"qid":"Q0272","kind":"define_feature","question":"what is meant by abnormality of the renal medulla","gold":["HPO|HP:0100957"],"disease_id":null,"split":"blind"}
+{"qid":"Q0273","kind":"define_feature","question":"what is meant by high blood glucose","gold":["HPO|HP:0003074"],"disease_id":null,"split":"dev"}
+{"qid":"Q0274","kind":"define_feature","question":"what is meant by increased level of phenylalanine in urine","gold":["HPO|HP:0032351"],"disease_id":null,"split":"blind"}
+{"qid":"Q0275","kind":"define_feature","question":"what is meant by focal motor aware seizure with negative myoclonus","gold":["HPO|HP:0032857"],"disease_id":null,"split":"blind"}
+{"qid":"Q0276","kind":"define_feature","question":"what is meant by ewing's sarcoma","gold":["HPO|HP:0012254"],"disease_id":null,"split":"blind"}
+{"qid":"Q0277","kind":"define_feature","question":"what is meant by terminal tremor","gold":["HPO|HP:0002080"],"disease_id":null,"split":"dev"}
+{"qid":"Q0278","kind":"define_feature","question":"what is meant by exacerbated by pulmonary vasodilators","gold":["HPO|HP:6001413"],"disease_id":null,"split":"blind"}
+{"qid":"Q0279","kind":"define_feature","question":"what is meant by complete duplication of the middle pinky finger bone","gold":["HPO|HP:0009992"],"disease_id":null,"split":"dev"}
+{"qid":"Q0280","kind":"define_feature","question":"what is meant by amniotic shelf","gold":["HPO|HP:0030763"],"disease_id":null,"split":"blind"}
+{"qid":"Q0281","kind":"define_feature","question":"what is meant by ears rotated toward back of head","gold":["HPO|HP:0000358"],"disease_id":null,"split":"dev"}
+{"qid":"Q0282","kind":"define_feature","question":"what is meant by decreased foveal light reflex","gold":["HPO|HP:0034362"],"disease_id":null,"split":"dev"}
+{"qid":"Q0283","kind":"define_feature","question":"what is meant by small nails","gold":["HPO|HP:0001792"],"disease_id":null,"split":"blind"}
+{"qid":"Q0284","kind":"define_feature","question":"what is meant by small end part of innermost shinbone","gold":["HPO|HP:0012284"],"disease_id":null,"split":"dev"}
+{"qid":"Q0285","kind":"define_feature","question":"what is meant by absent\/underdeveloped thighbone","gold":["HPO|HP:0005613"],"disease_id":null,"split":"dev"}
+{"qid":"Q0286","kind":"define_feature","question":"what is meant by pulmonary cavitation","gold":["HPO|HP:0033655"],"disease_id":null,"split":"blind"}
+{"qid":"Q0287","kind":"define_feature","question":"what is meant by anti-psp antibody positivity","gold":["HPO|HP:0034069"],"disease_id":null,"split":"dev"}
+{"qid":"Q0288","kind":"define_feature","question":"what is meant by orange discoloured tonsils","gold":["HPO|HP:0030814"],"disease_id":null,"split":"blind"}
+{"qid":"Q0289","kind":"define_feature","question":"what is meant by discordant atrioventricular connexion","gold":["HPO|HP:0011553"],"disease_id":null,"split":"dev"}
+{"qid":"Q0290","kind":"define_feature","question":"what is meant by hypoplastic posterior communicating arteries","gold":["HPO|HP:0012519"],"disease_id":null,"split":"dev"}
+{"qid":"Q0291","kind":"define_feature","question":"what is meant by abnormality of fibula morphology","gold":["HPO|HP:0002991"],"disease_id":null,"split":"dev"}
+{"qid":"Q0292","kind":"define_feature","question":"what is meant by ciliary limbus","gold":["HPO|HP:0025338"],"disease_id":null,"split":"blind"}
+{"qid":"Q0293","kind":"define_feature","question":"what is meant by webbed first and second toes","gold":["HPO|HP:0010711"],"disease_id":null,"split":"dev"}
+{"qid":"Q0294","kind":"define_feature","question":"what is meant by morbus basedow","gold":["HPO|HP:0100647"],"disease_id":null,"split":"blind"}
+{"qid":"Q0295","kind":"define_feature","question":"what is meant by increased myristic acid level in blood","gold":["HPO|HP:0410154"],"disease_id":null,"split":"dev"}
+{"qid":"Q0296","kind":"define_feature","question":"what is meant by duodenal cancer","gold":["HPO|HP:0006771"],"disease_id":null,"split":"dev"}
+{"qid":"Q0297","kind":"define_feature","question":"what is meant by short 5th long bone of foot","gold":["HPO|HP:0004704"],"disease_id":null,"split":"dev"}
+{"qid":"Q0298","kind":"define_feature","question":"what is meant by one sided cleft upper lip","gold":["HPO|HP:0100333"],"disease_id":null,"split":"dev"}
+{"qid":"Q0299","kind":"define_feature","question":"what is meant by hepatic adenoma","gold":["HPO|HP:0012028"],"disease_id":null,"split":"dev"}
+{"qid":"Q0300","kind":"define_feature","question":"what is meant by partial paralysis of legs","gold":["HPO|HP:0002385"],"disease_id":null,"split":"dev"}
+{"qid":"Q0301","kind":"define_feature","question":"what is meant by abnormality of phenylalanine metabolism","gold":["HPO|HP:0010893"],"disease_id":null,"split":"dev"}
+{"qid":"Q0302","kind":"define_feature","question":"what is meant by delayed maturation of the trapezoid bone","gold":["HPO|HP:0004257"],"disease_id":null,"split":"blind"}
+{"qid":"Q0303","kind":"define_feature","question":"what is meant by rheumatoid arthritis","gold":["HPO|HP:0001370"],"disease_id":null,"split":"dev"}
+{"qid":"Q0304","kind":"define_feature","question":"what is meant by corneal striae","gold":["HPO|HP:6001180"],"disease_id":null,"split":"dev"}
+{"qid":"Q0305","kind":"define_feature","question":"what is meant by abnormality of jugular vein","gold":["HPO|HP:3000042"],"disease_id":null,"split":"blind"}
+{"qid":"Q0306","kind":"define_feature","question":"what is meant by bone metatarsal bone of digit 1","gold":["HPO|HP:0041231"],"disease_id":null,"split":"blind"}
+{"qid":"Q0307","kind":"define_feature","question":"what is meant by bullet-shaped 1st long bone of foot","gold":["HPO|HP:0010069"],"disease_id":null,"split":"blind"}
+{"qid":"Q0308","kind":"define_feature","question":"what is meant by somatic mosaicism","gold":["HPO|HP:0001442"],"disease_id":null,"split":"dev"}
+{"qid":"Q0309","kind":"define_feature","question":"what is meant by presenile cataract","gold":["HPO|HP:0007819"],"disease_id":null,"split":"blind"}
+{"qid":"Q0310","kind":"define_feature","question":"what is meant by weakness of the vocal cords","gold":["HPO|HP:0001604"],"disease_id":null,"split":"blind"}
+{"qid":"Q0311","kind":"define_feature","question":"what is meant by kidney cortical adenoma","gold":["HPO|HP:0006735"],"disease_id":null,"split":"blind"}
+{"qid":"Q0312","kind":"define_feature","question":"what is meant by curved thumb bone","gold":["HPO|HP:0009653"],"disease_id":null,"split":"blind"}
+{"qid":"Q0313","kind":"define_feature","question":"what is meant by cerebral haemorrhage","gold":["HPO|HP:0001342"],"disease_id":null,"split":"dev"}
+{"qid":"Q0314","kind":"define_feature","question":"what is meant by increased bone density in innermost finger bone","gold":["HPO|HP:0100917"],"disease_id":null,"split":"dev"}
+{"qid":"Q0315","kind":"define_feature","question":"what is meant by skin hyperelasticity","gold":["HPO|HP:0000974"],"disease_id":null,"split":"blind"}
+{"qid":"Q0316","kind":"define_feature","question":"what is meant by pvwmh","gold":["HPO|HP:0030891"],"disease_id":null,"split":"dev"}
+{"qid":"Q0317","kind":"define_feature","question":"what is meant by short bone of big toe","gold":["HPO|HP:0010111"],"disease_id":null,"split":"blind"}
+{"qid":"Q0318","kind":"define_feature","question":"what is meant by growth of abnormal tissue on or under the skin","gold":["HPO|HP:0200036"],"disease_id":null,"split":"dev"}
+{"qid":"Q0319","kind":"define_feature","question":"what is meant by high lymphocyte count","gold":["HPO|HP:0100827"],"disease_id":null,"split":"blind"}
+{"qid":"Q0320","kind":"define_feature","question":"what is meant by limited movement of the wrist","gold":["HPO|HP:0006248"],"disease_id":null,"split":"dev"}
+{"qid":"Q0321","kind":"define_feature","question":"what is meant by abnormal proportion of central memory cd8-positive t cells","gold":["HPO|HP:0410384"],"disease_id":null,"split":"blind"}
+{"qid":"Q0322","kind":"define_feature","question":"what is meant by respiratory tract chondritis","gold":["HPO|HP:6001446"],"disease_id":null,"split":"blind"}
+{"qid":"Q0323","kind":"define_feature","question":"what is meant by fulminant hsv hepatitis","gold":["HPO|HP:5210394"],"disease_id":null,"split":"dev"}
+{"qid":"Q0324","kind":"define_feature","question":"what is meant by persistent histoplasma capsulatum infection","gold":["HPO|HP:5210389"],"disease_id":null,"split":"blind"}
+{"qid":"Q0325","kind":"define_feature","question":"what is meant by anti-p\/q-type voltage-gated calcium-channel antibody","gold":["HPO|HP:5000027"],"disease_id":null,"split":"dev"}
+{"qid":"Q0326","kind":"define_feature","question":"what is meant by macular haemorrhage","gold":["HPO|HP:0025574"],"disease_id":null,"split":"dev"}
+{"qid":"Q0327","kind":"define_feature","question":"what is meant by partial duplication of the middle bone of the 2nd toe","gold":["HPO|HP:0010427"],"disease_id":null,"split":"dev"}
+{"qid":"Q0328","kind":"define_feature","question":"what is meant by accelerated plaque build-up in arteries","gold":["HPO|HP:0004943"],"disease_id":null,"split":"dev"}
+{"qid":"Q0329","kind":"define_feature","question":"what is meant by unusual preoccupations","gold":["HPO|HP:4000077"],"disease_id":null,"split":"dev"}
+{"qid":"Q0330","kind":"feature_in_disease","question":"is microphthalmia part of PLK4 microcephaly and chorioretinopathy","gold":["DIS|OMIM:616171|HP:0000478"],"disease_id":"OMIM:616171","split":"dev"}
+{"qid":"Q0331","kind":"feature_in_disease","question":"is cystinuria part of cystinuria (disease)","gold":["DIS|OMIM:220100|HP:0000119"],"disease_id":"OMIM:220100","split":"dev"}
+{"qid":"Q0332","kind":"feature_in_disease","question":"is hyperglycemia part of PNDM3","gold":["DIS|OMIM:618857|HP:0001939"],"disease_id":"OMIM:618857","split":"blind"}
+{"qid":"Q0333","kind":"feature_in_disease","question":"is cerebral atrophy part of Polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy","gold":["DIS|OMIM:221770|HP:0000707"],"disease_id":"OMIM:221770","split":"dev"}
+{"qid":"Q0334","kind":"feature_in_disease","question":"is overlapping fingers part of MOGS-CDG","gold":["DIS|OMIM:606056|HP:0033127"],"disease_id":"OMIM:606056","split":"dev"}
+{"qid":"Q0335","kind":"feature_in_disease","question":"is cutaneous syndactyly part of long QT syndrome-syndactyly syndrome","gold":["DIS|OMIM:601005|HP:0033127"],"disease_id":"OMIM:601005","split":"dev"}
+{"qid":"Q0336","kind":"feature_in_disease","question":"is dysarthria part of ADCAII","gold":["DIS|ORPHA:94147|HP:0000707"],"disease_id":"ORPHA:94147","split":"dev"}
+{"qid":"Q0337","kind":"feature_in_disease","question":"is macular hypopigmentation part of DSH1","gold":["DIS|ORPHA:41|HP:0000478"],"disease_id":"ORPHA:41","split":"blind"}
+{"qid":"Q0338","kind":"feature_in_disease","question":"is seizure part of combined oxidative phosphorylation deficiency type 1","gold":["DIS|ORPHA:137681|HP:0000707"],"disease_id":"ORPHA:137681","split":"dev"}
+{"qid":"Q0339","kind":"feature_in_disease","question":"is epicanthus part of HIBCH deficiency","gold":["DIS|OMIM:250620|HP:0000152"],"disease_id":"OMIM:250620","split":"dev"}
+{"qid":"Q0340","kind":"feature_in_disease","question":"is dermal atrophy part of Exostoses-anetodermia-brachydactyly type E syndrome","gold":["DIS|ORPHA:1962|HP:0001574"],"disease_id":"ORPHA:1962","split":"dev"}
+{"qid":"Q0341","kind":"feature_in_disease","question":"is seizure part of intellectual disability, autosomal recessive 16","gold":["DIS|OMIM:614208|HP:0000707"],"disease_id":"OMIM:614208","split":"blind"}
+{"qid":"Q0342","kind":"feature_in_disease","question":"is scoliosis part of congenital myasthenic syndrome caused by mutation in MUSK","gold":["DIS|OMIM:616325|HP:0033127"],"disease_id":"OMIM:616325","split":"dev"}
+{"qid":"Q0343","kind":"feature_in_disease","question":"is facial asymmetry part of OBHD","gold":["DIS|OMIM:613886|HP:0000152"],"disease_id":"OMIM:613886","split":"dev"}
+{"qid":"Q0344","kind":"feature_in_disease","question":"is hyperammonemia part of inherited GS deficiency","gold":["DIS|OMIM:610015|HP:0001939"],"disease_id":"OMIM:610015","split":"dev"}
+{"qid":"Q0345","kind":"feature_in_disease","question":"is cryptorchidism part of monosomy 14q11.2","gold":["DIS|OMIM:613457|HP:0000119"],"disease_id":"OMIM:613457","split":"dev"}
+{"qid":"Q0346","kind":"feature_in_disease","question":"is narrow mouth part of BMRS, Verloes type","gold":["DIS|OMIM:604314|HP:0000152"],"disease_id":"OMIM:604314","split":"blind"}
+{"qid":"Q0347","kind":"feature_in_disease","question":"is slender long bone part of SEMDFA","gold":["DIS|ORPHA:457395|HP:0033127"],"disease_id":"ORPHA:457395","split":"blind"}
+{"qid":"Q0348","kind":"feature_in_disease","question":"is sarcoma part of gist","gold":["DIS|ORPHA:44890|HP:0002664"],"disease_id":"ORPHA:44890","split":"dev"}
+{"qid":"Q0349","kind":"feature_in_disease","question":"is tetralogy of fallot part of Fetal trimethadione syndrome","gold":["DIS|ORPHA:1913|HP:0001626"],"disease_id":"ORPHA:1913","split":"dev"}
+{"qid":"Q0350","kind":"feature_in_disease","question":"is gastroesophageal reflux part of idiopathic achalasia of esophagus","gold":["DIS|ORPHA:930|HP:0025031"],"disease_id":"ORPHA:930","split":"dev"}
+{"qid":"Q0351","kind":"feature_in_disease","question":"is dry skin part of Immunodeficiency 133 with ectodermal dysplasia with or without peripheral neuropathy","gold":["DIS|OMIM:621254|HP:0001574"],"disease_id":"OMIM:621254","split":"dev"}
+{"qid":"Q0352","kind":"feature_in_disease","question":"is broad alveolar ridges part of OFD syndrome 1","gold":["DIS|ORPHA:2750|HP:0000152"],"disease_id":"ORPHA:2750","split":"dev"}
+{"qid":"Q0353","kind":"feature_in_disease","question":"is parkinsonism part of Parkinson disease caused by mutation in DNAJC6","gold":["DIS|OMIM:615528|HP:0000707"],"disease_id":"OMIM:615528","split":"dev"}
+{"qid":"Q0354","kind":"feature_in_disease","question":"is impaired adp-induced platelet aggregation part of Bleeding disorder, platelet-type, 22","gold":["DIS|OMIM:618462|HP:0001871"],"disease_id":"OMIM:618462","split":"dev"}
+{"qid":"Q0355","kind":"feature_in_disease","question":"is failure to thrive in infancy part of autoimmune enteropathy type 1","gold":["DIS|ORPHA:37042|HP:0001507"],"disease_id":"ORPHA:37042","split":"dev"}
+{"qid":"Q0356","kind":"feature_in_disease","question":"is coarse facial features part of late-infantile GM1 gangliosidosis","gold":["DIS|OMIM:230600|HP:0000152"],"disease_id":"OMIM:230600","split":"blind"}
+{"qid":"Q0357","kind":"feature_in_disease","question":"is overgrowth part of Lui-Jee-Baron syndrome","gold":["DIS|OMIM:301114|HP:0001507"],"disease_id":"OMIM:301114","split":"dev"}
+{"qid":"Q0358","kind":"feature_in_disease","question":"is inappropriate laughter part of semantic variant PPA","gold":["DIS|OMIM:600274|HP:0000707"],"disease_id":"OMIM:600274","split":"dev"}
+{"qid":"Q0359","kind":"feature_in_disease","question":"is strabismus part of nystagmus 5, congenital, X-linked, X-linked dominant","gold":["DIS|OMIM:300589|HP:0000478"],"disease_id":"OMIM:300589","split":"blind"}
+{"qid":"Q0360","kind":"feature_in_disease","question":"is vocal cord paresis part of SLC5A7 neuronopathy, distal hereditary motor","gold":["DIS|OMIM:158580|HP:0000707"],"disease_id":"OMIM:158580","split":"blind"}
+{"qid":"Q0361","kind":"feature_in_disease","question":"is cough part of Airway infantile hemangioma","gold":["DIS|ORPHA:137935|HP:0002086"],"disease_id":"ORPHA:137935","split":"blind"}
+{"qid":"Q0362","kind":"feature_in_disease","question":"is blepharophimosis part of Zechi-Ceide syndrome","gold":["DIS|OMIM:612916|HP:0000152"],"disease_id":"OMIM:612916","split":"blind"}
+{"qid":"Q0363","kind":"feature_in_disease","question":"is skeletal muscle atrophy part of PRUNE1-related neurological syndrome","gold":["DIS|OMIM:617481|HP:0033127"],"disease_id":"OMIM:617481","split":"blind"}
+{"qid":"Q0364","kind":"feature_in_disease","question":"is episodic vomiting part of MAN2B2-CDG","gold":["DIS|OMIM:621140|HP:0025031"],"disease_id":"OMIM:621140","split":"dev"}
+{"qid":"Q0365","kind":"feature_in_disease","question":"is vomiting part of Stolerman neurodevelopmental syndrome","gold":["DIS|OMIM:618505|HP:0025031"],"disease_id":"OMIM:618505","split":"dev"}
+{"qid":"Q0366","kind":"feature_in_disease","question":"is absent toenail part of distal monosomy 22q11.2","gold":["DIS|ORPHA:261330|HP:0001574"],"disease_id":"ORPHA:261330","split":"dev"}
+{"qid":"Q0367","kind":"feature_in_disease","question":"is thick vermilion border part of Dubowitz syndrome","gold":["DIS|OMIM:223370|HP:0000152"],"disease_id":"OMIM:223370","split":"dev"}
+{"qid":"Q0368","kind":"feature_in_disease","question":"is hyperextensible skin part of Spinocerebellar ataxia-dysmorphism syndrome","gold":["DIS|ORPHA:1185|HP:0001574"],"disease_id":"ORPHA:1185","split":"dev"}
+{"qid":"Q0369","kind":"feature_in_disease","question":"is micrognathia part of foetal hypokinesia sequence due to restrictive dermopathy","gold":["DIS|OMIM:275210|HP:0000152"],"disease_id":"OMIM:275210","split":"dev"}
+{"qid":"Q0370","kind":"feature_in_disease","question":"is axial hypotonia part of PCH1B","gold":["DIS|OMIM:614678|HP:0033127"],"disease_id":"OMIM:614678","split":"blind"}
+{"qid":"Q0371","kind":"feature_in_disease","question":"is impotence part of meningioma (disease)","gold":["DIS|ORPHA:2495|HP:0000119"],"disease_id":"ORPHA:2495","split":"dev"}
+{"qid":"Q0372","kind":"feature_in_disease","question":"is global developmental delay part of argininosuccinate synthase deficiency","gold":["DIS|OMIM:215700|HP:0000707"],"disease_id":"OMIM:215700","split":"blind"}
+{"qid":"Q0373","kind":"feature_in_disease","question":"is distal sensory impairment part of Roussy L\u00e9vy Syndrome","gold":["DIS|OMIM:180800|HP:0000707"],"disease_id":"OMIM:180800","split":"blind"}
+{"qid":"Q0374","kind":"feature_in_disease","question":"is sparse lateral eyebrow part of Abnormal hair, joint laxity, and developmental delay","gold":["DIS|OMIM:261990|HP:0000152"],"disease_id":"OMIM:261990","split":"dev"}
+{"qid":"Q0375","kind":"feature_in_disease","question":"is hypotonia part of Aicardi\u2019s syndrome","gold":["DIS|OMIM:304050|HP:0033127"],"disease_id":"OMIM:304050","split":"dev"}
+{"qid":"Q0376","kind":"feature_in_disease","question":"is cerebral cortical atrophy part of Intellectual disability-obesity-brain malformations-facial dysmorphism syndrome","gold":["DIS|ORPHA:352530|HP:0000707"],"disease_id":"ORPHA:352530","split":"blind"}
+{"qid":"Q0377","kind":"feature_in_disease","question":"is intellectual disability part of ATP6V1B2 Zimmermann-Laband syndrome","gold":["DIS|OMIM:616455|HP:0000707"],"disease_id":"OMIM:616455","split":"dev"}
+{"qid":"Q0378","kind":"feature_in_disease","question":"is proteinuria part of GFND1","gold":["DIS|OMIM:137950|HP:0000119"],"disease_id":"OMIM:137950","split":"blind"}
+{"qid":"Q0379","kind":"feature_in_disease","question":"is low-set ears part of Adams-Oliver syndrome caused by mutation in DOCK6","gold":["DIS|OMIM:614219|HP:0000598"],"disease_id":"OMIM:614219","split":"dev"}
+{"qid":"Q0380","kind":"feature_in_disease","question":"is ambiguous genitalia, female part of Denys-Drash syndrome, autosomal dominant, somatic mutation","gold":["DIS|OMIM:194080|HP:0000119"],"disease_id":"OMIM:194080","split":"dev"}
+{"qid":"Q0381","kind":"feature_in_disease","question":"is diffuse reticular or finely nodular infiltrations part of RB-ILD","gold":["DIS|ORPHA:79127|HP:0002086"],"disease_id":"ORPHA:79127","split":"dev"}
+{"qid":"Q0382","kind":"feature_in_disease","question":"is abnormality of the genitourinary system part of Tokita-Kim syndrome","gold":["DIS|ORPHA:500150|HP:0000119"],"disease_id":"ORPHA:500150","split":"blind"}
+{"qid":"Q0383","kind":"feature_in_disease","question":"is amblyopia part of Retinitis pigmentosa 98","gold":["DIS|OMIM:620996|HP:0000478"],"disease_id":"OMIM:620996","split":"blind"}
+{"qid":"Q0384","kind":"feature_in_disease","question":"is abnormal nail morphology part of Wolff-Zimmermann syndrome","gold":["DIS|ORPHA:3080|HP:0001574"],"disease_id":"ORPHA:3080","split":"dev"}
+{"qid":"Q0385","kind":"feature_in_disease","question":"is intrauterine growth retardation part of RSDM2","gold":["DIS|OMIM:619793|HP:0001507"],"disease_id":"OMIM:619793","split":"dev"}
+{"qid":"Q0386","kind":"feature_in_disease","question":"is vertebral segmentation defect part of Hes7 autosomal recessive spondylocostal dysostosis","gold":["DIS|OMIM:613686|HP:0033127"],"disease_id":"OMIM:613686","split":"dev"}
+{"qid":"Q0387","kind":"feature_in_disease","question":"is 4-5 metacarpal synostosis part of Ophthalmoacromelic syndrome","gold":["DIS|OMIM:206920|HP:0033127"],"disease_id":"OMIM:206920","split":"dev"}
+{"qid":"Q0388","kind":"feature_in_disease","question":"is cyanosis part of Neurodevelopmental disorder with seizures and impaired intellectual and language development","gold":["DIS|OMIM:621533|HP:0001574"],"disease_id":"OMIM:621533","split":"dev"}
+{"qid":"Q0389","kind":"feature_in_disease","question":"is decreased fertility part of Sohval-Soffer syndrome","gold":["DIS|ORPHA:2234|HP:0000119"],"disease_id":"ORPHA:2234","split":"blind"}
+{"qid":"Q0390","kind":"feature_in_disease","question":"is chordoma part of tuberous sclerosis type 2","gold":["DIS|OMIM:613254|HP:0002664"],"disease_id":"OMIM:613254","split":"dev"}
+{"qid":"Q0391","kind":"feature_in_disease","question":"is short stature part of Lenz-Majewski hyperostotic dwarfism","gold":["DIS|OMIM:151050|HP:0001507"],"disease_id":"OMIM:151050","split":"blind"}
+{"qid":"Q0392","kind":"feature_in_disease","question":"is limb-girdle muscle weakness part of MDDGC9","gold":["DIS|OMIM:613818|HP:0033127"],"disease_id":"OMIM:613818","split":"blind"}
+{"qid":"Q0393","kind":"feature_in_disease","question":"is craniosynostosis part of isolated trigonocephaly caused by mutation in FGFR1","gold":["DIS|OMIM:190440|HP:0000152"],"disease_id":"OMIM:190440","split":"dev"}
+{"qid":"Q0394","kind":"feature_in_disease","question":"is fever part of Neuroleptic malignant syndrome","gold":["DIS|ORPHA:94093|HP:0001939"],"disease_id":"ORPHA:94093","split":"blind"}
+{"qid":"Q0395","kind":"feature_in_disease","question":"is abnormality of metabolism\/homeostasis part of Ciliary discoordination due to random ciliary orientation","gold":["DIS|OMIM:215518|HP:0001939"],"disease_id":"OMIM:215518","split":"dev"}
+{"qid":"Q0396","kind":"feature_in_disease","question":"is irregularly spaced teeth part of Ito hypomelanosis","gold":["DIS|OMIM:300337|HP:0000152"],"disease_id":"OMIM:300337","split":"blind"}
+{"qid":"Q0397","kind":"feature_in_disease","question":"is decreased adipose tissue around neck part of Lipodystrophy, familial partial, type 7","gold":["DIS|OMIM:606721|HP:0001574"],"disease_id":"OMIM:606721","split":"blind"}
+{"qid":"Q0398","kind":"feature_in_disease","question":"is amenorrhea part of Pituitary dermoid and epidermoid cysts","gold":["DIS|ORPHA:91351|HP:0000119"],"disease_id":"ORPHA:91351","split":"dev"}
+{"qid":"Q0399","kind":"feature_in_disease","question":"is hyperkeratosis part of peeling skin syndrome caused by mutation in CSTA","gold":["DIS|OMIM:607936|HP:0001574"],"disease_id":"OMIM:607936","split":"dev"}
+{"qid":"Q0400","kind":"feature_in_disease","question":"is atopic dermatitis part of Dyschromatosis, ichthyosis, deafness, and atopic disease","gold":["DIS|OMIM:621400|HP:0001574"],"disease_id":"OMIM:621400","split":"blind"}
+{"qid":"Q0401","kind":"feature_in_disease","question":"is ventriculomegaly part of EIEE77","gold":["DIS|OMIM:618548|HP:0000707"],"disease_id":"OMIM:618548","split":"dev"}
+{"qid":"Q0402","kind":"feature_in_disease","question":"is cubitus valgus part of multiple synostoses syndrome caused by mutation in NOG","gold":["DIS|OMIM:186500|HP:0033127"],"disease_id":"OMIM:186500","split":"blind"}
+{"qid":"Q0403","kind":"feature_in_disease","question":"is severely increased total eosinophil count part of IgG4-related periaortitis","gold":["DIS|ORPHA:449400|HP:0001871"],"disease_id":"ORPHA:449400","split":"blind"}
+{"qid":"Q0404","kind":"feature_in_disease","question":"is epidermal acanthosis part of plack syndrome","gold":["DIS|OMIM:616295|HP:0001574"],"disease_id":"OMIM:616295","split":"dev"}
+{"qid":"Q0405","kind":"feature_in_disease","question":"is intrauterine growth retardation part of BOFS","gold":["DIS|ORPHA:1297|HP:0001507"],"disease_id":"ORPHA:1297","split":"dev"}
+{"qid":"Q0406","kind":"feature_in_disease","question":"is dysphagia part of EBD inversa","gold":["DIS|OMIM:226600|HP:0000707"],"disease_id":"OMIM:226600","split":"blind"}
+{"qid":"Q0407","kind":"feature_in_disease","question":"is eosinophilic infiltration of the esophagus part of AD hyperimmunoglobulin E syndrome","gold":["DIS|OMIM:147060|HP:0002715"],"disease_id":"OMIM:147060","split":"dev"}
+{"qid":"Q0408","kind":"feature_in_disease","question":"is hypoplasia of the corpus callosum part of SPG32","gold":["DIS|OMIM:611252|HP:0000707"],"disease_id":"OMIM:611252","split":"blind"}
+{"qid":"Q0409","kind":"feature_in_disease","question":"is global developmental delay part of Neurodevelopmental disorder with regression, abnormal movements, loss of speech, and seizures","gold":["DIS|OMIM:618088|HP:0000707"],"disease_id":"OMIM:618088","split":"dev"}
+{"qid":"Q0410","kind":"feature_in_disease","question":"is floppy infant part of Chudley-Lowry-Hoar syndrome","gold":["DIS|OMIM:309580|HP:0033127"],"disease_id":"OMIM:309580","split":"blind"}
+{"qid":"Q0411","kind":"feature_in_disease","question":"is patellar dislocation part of CREBBP Rubinstein-Taybi syndrome","gold":["DIS|OMIM:180849|HP:0033127"],"disease_id":"OMIM:180849","split":"dev"}
+{"qid":"Q0412","kind":"feature_in_disease","question":"is limb undergrowth part of SCKL7","gold":["DIS|ORPHA:319675|HP:0033127"],"disease_id":"ORPHA:319675","split":"blind"}
+{"qid":"Q0413","kind":"feature_in_disease","question":"is cellular hypersensitivity to mitomycin c part of Fanconi anemia, complementation group X","gold":["DIS|OMIM:621258|HP:0001939"],"disease_id":"OMIM:621258","split":"dev"}
+{"qid":"Q0414","kind":"feature_in_disease","question":"is echogenic intracardiac focus part of Congenital myopathy 20","gold":["DIS|OMIM:620310|HP:0001197"],"disease_id":"OMIM:620310","split":"dev"}
+{"qid":"Q0415","kind":"feature_in_disease","question":"is spasticity part of Megalencephalic leukoencephalopathy with subcortical cysts 3","gold":["DIS|OMIM:620447|HP:0000707"],"disease_id":"OMIM:620447","split":"blind"}
+{"qid":"Q0416","kind":"feature_in_disease","question":"is scoliosis part of RAD51 Fanconi anemia","gold":["DIS|OMIM:617244|HP:0033127"],"disease_id":"OMIM:617244","split":"dev"}
+{"qid":"Q0417","kind":"feature_in_disease","question":"is wide nasal bridge part of Warburg micro syndrome","gold":["DIS|ORPHA:2510|HP:0000152"],"disease_id":"ORPHA:2510","split":"dev"}
+{"qid":"Q0418","kind":"feature_in_disease","question":"is neoplasm part of Seemanova syndrome type 2","gold":["DIS|ORPHA:647|HP:0002664"],"disease_id":"ORPHA:647","split":"blind"}
+{"qid":"Q0419","kind":"feature_in_disease","question":"is moderate intellectual disability part of Intellectual developmental disorder, autosomal dominant 73","gold":["DIS|OMIM:620450|HP:0000707"],"disease_id":"OMIM:620450","split":"dev"}
+{"qid":"Q0420","kind":"feature_in_disease","question":"is moderately short stature part of SLC39A13-related spEDS","gold":["DIS|OMIM:612350|HP:0001507"],"disease_id":"OMIM:612350","split":"dev"}
+{"qid":"Q0421","kind":"feature_in_disease","question":"is vomiting part of Visceral neuropathy, familial, autosomal recessive","gold":["DIS|OMIM:243180|HP:0025031"],"disease_id":"OMIM:243180","split":"blind"}
+{"qid":"Q0422","kind":"feature_in_disease","question":"is seizure part of Ring chromosome type 14","gold":["DIS|ORPHA:1440|HP:0000707"],"disease_id":"ORPHA:1440","split":"blind"}
+{"qid":"Q0423","kind":"feature_in_disease","question":"is splenomegaly part of A-1ATD","gold":["DIS|OMIM:613490|HP:0001626"],"disease_id":"OMIM:613490","split":"dev"}
+{"qid":"Q0424","kind":"feature_in_disease","question":"is nystagmus part of intellectual disability, autosomal recessive type 1","gold":["DIS|OMIM:249500|HP:0000478"],"disease_id":"OMIM:249500","split":"blind"}
+{"qid":"Q0425","kind":"feature_in_disease","question":"is hammertoe part of CMT2C","gold":["DIS|OMIM:606071|HP:0033127"],"disease_id":"OMIM:606071","split":"blind"}
+{"qid":"Q0426","kind":"feature_in_disease","question":"is nystagmus part of Creutzfeldt-Jakob disease, variant, resistance to","gold":["DIS|ORPHA:282166|HP:0000478"],"disease_id":"ORPHA:282166","split":"dev"}
+{"qid":"Q0427","kind":"feature_in_disease","question":"is orofacial cleft part of pseudo-trisomy 13 syndrome","gold":["DIS|ORPHA:2166|HP:0000152"],"disease_id":"ORPHA:2166","split":"dev"}
+{"qid":"Q0428","kind":"feature_in_disease","question":"is highly arched eyebrow part of KCNK9 Imprinting Syndrome","gold":["DIS|OMIM:612292|HP:0000152"],"disease_id":"OMIM:612292","split":"blind"}
+{"qid":"Q0429","kind":"feature_in_disease","question":"is abnormal facial shape part of deletion 18q syndrome","gold":["DIS|ORPHA:1600|HP:0000152"],"disease_id":"ORPHA:1600","split":"dev"}
+{"qid":"Q0430","kind":"feature_in_disease","question":"is generalized hypotonia part of MC4DN18","gold":["DIS|OMIM:619062|HP:0033127"],"disease_id":"OMIM:619062","split":"dev"}
+{"qid":"Q0431","kind":"feature_in_disease","question":"is irregular hyperpigmentation of back part of Ectodermal dysplasia, trichoodontoonychial type","gold":["DIS|ORPHA:1818|HP:0001574"],"disease_id":"ORPHA:1818","split":"dev"}
+{"qid":"Q0432","kind":"feature_in_disease","question":"is mandibular prognathia part of hypertrichosis-atrophic skin-ectropion-macrostomia syndrome","gold":["DIS|OMIM:209885|HP:0000152"],"disease_id":"OMIM:209885","split":"dev"}
+{"qid":"Q0433","kind":"feature_in_disease","question":"is pansynostosis part of Robinow-Sorauf syndrome","gold":["DIS|OMIM:180750|HP:0000152"],"disease_id":"OMIM:180750","split":"dev"}
+{"qid":"Q0434","kind":"feature_in_disease","question":"is molar tooth sign on mri part of Coach syndrome 1","gold":["DIS|OMIM:216360|HP:0000707"],"disease_id":"OMIM:216360","split":"dev"}
+{"qid":"Q0435","kind":"feature_in_disease","question":"is brachydactyly part of Neurodevelopmental disorder with dysmorphic facies and distal skeletal anomalies","gold":["DIS|OMIM:618659|HP:0033127"],"disease_id":"OMIM:618659","split":"blind"}
+{"qid":"Q0436","kind":"feature_in_disease","question":"is retrognathia part of Dursun-Ozgul neurodevelopmental syndrome","gold":["DIS|OMIM:621344|HP:0000152"],"disease_id":"OMIM:621344","split":"dev"}
+{"qid":"Q0437","kind":"feature_in_disease","question":"is postaxial hand polydactyly part of SLOS","gold":["DIS|ORPHA:818|HP:0033127"],"disease_id":"ORPHA:818","split":"blind"}
+{"qid":"Q0438","kind":"feature_in_disease","question":"is cutaneous photosensitivity part of Pellagra","gold":["DIS|ORPHA:97352|HP:0001574"],"disease_id":"ORPHA:97352","split":"dev"}
+{"qid":"Q0439","kind":"feature_in_disease","question":"is hydrocephalus part of familial scaphocephaly-radioulnar synostosis syndrome","gold":["DIS|ORPHA:171839|HP:0000707"],"disease_id":"ORPHA:171839","split":"blind"}
+{"qid":"Q0440","kind":"diseases_of_gene","question":"what conditions are caused by variants in PDGFRA","gold":["GENE|PDGFRA"],"disease_id":null,"split":"dev"}
+{"qid":"Q0441","kind":"diseases_of_gene","question":"what conditions are caused by variants in TP53RK","gold":["GENE|TP53RK"],"disease_id":null,"split":"blind"}
+{"qid":"Q0442","kind":"diseases_of_gene","question":"what conditions are caused by variants in RFWD3","gold":["GENE|RFWD3"],"disease_id":null,"split":"dev"}
+{"qid":"Q0443","kind":"diseases_of_gene","question":"what conditions are caused by variants in NKX6-2","gold":["GENE|NKX6-2"],"disease_id":null,"split":"blind"}
+{"qid":"Q0444","kind":"diseases_of_gene","question":"what conditions are caused by variants in FGF23","gold":["GENE|FGF23"],"disease_id":null,"split":"blind"}
+{"qid":"Q0445","kind":"diseases_of_gene","question":"what conditions are caused by variants in CHST14","gold":["GENE|CHST14"],"disease_id":null,"split":"dev"}
+{"qid":"Q0446","kind":"diseases_of_gene","question":"what conditions are caused by variants in CNGB3","gold":["GENE|CNGB3"],"disease_id":null,"split":"dev"}
+{"qid":"Q0447","kind":"diseases_of_gene","question":"what conditions are caused by variants in SNRNP200","gold":["GENE|SNRNP200"],"disease_id":null,"split":"blind"}
+{"qid":"Q0448","kind":"diseases_of_gene","question":"what conditions are caused by variants in MPI","gold":["GENE|MPI"],"disease_id":null,"split":"dev"}
+{"qid":"Q0449","kind":"diseases_of_gene","question":"what conditions are caused by variants in DNAL4","gold":["GENE|DNAL4"],"disease_id":null,"split":"dev"}
+{"qid":"Q0450","kind":"diseases_of_gene","question":"what conditions are caused by variants in NECTIN1","gold":["GENE|NECTIN1"],"disease_id":null,"split":"blind"}
+{"qid":"Q0451","kind":"diseases_of_gene","question":"what conditions are caused by variants in DNAAF4","gold":["GENE|DNAAF4"],"disease_id":null,"split":"blind"}
+{"qid":"Q0452","kind":"diseases_of_gene","question":"what conditions are caused by variants in PACS2","gold":["GENE|PACS2"],"disease_id":null,"split":"blind"}
+{"qid":"Q0453","kind":"diseases_of_gene","question":"what conditions are caused by variants in B3GALNT2","gold":["GENE|B3GALNT2"],"disease_id":null,"split":"blind"}
+{"qid":"Q0454","kind":"diseases_of_gene","question":"what conditions are caused by variants in SMO","gold":["GENE|SMO"],"disease_id":null,"split":"dev"}
+{"qid":"Q0455","kind":"diseases_of_gene","question":"what conditions are caused by variants in DRAM2","gold":["GENE|DRAM2"],"disease_id":null,"split":"dev"}
+{"qid":"Q0456","kind":"diseases_of_gene","question":"what conditions are caused by variants in TFE3","gold":["GENE|TFE3"],"disease_id":null,"split":"blind"}
+{"qid":"Q0457","kind":"diseases_of_gene","question":"what conditions are caused by variants in CAPRIN1","gold":["GENE|CAPRIN1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0458","kind":"diseases_of_gene","question":"what conditions are caused by variants in DPYSL5","gold":["GENE|DPYSL5"],"disease_id":null,"split":"dev"}
+{"qid":"Q0459","kind":"diseases_of_gene","question":"what conditions are caused by variants in PRF1","gold":["GENE|PRF1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0460","kind":"diseases_of_gene","question":"what conditions are caused by variants in TSPYL1","gold":["GENE|TSPYL1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0461","kind":"diseases_of_gene","question":"what conditions are caused by variants in ESCO2","gold":["GENE|ESCO2"],"disease_id":null,"split":"blind"}
+{"qid":"Q0462","kind":"diseases_of_gene","question":"what conditions are caused by variants in GATM","gold":["GENE|GATM"],"disease_id":null,"split":"dev"}
+{"qid":"Q0463","kind":"diseases_of_gene","question":"what conditions are caused by variants in RIPOR2","gold":["GENE|RIPOR2"],"disease_id":null,"split":"dev"}
+{"qid":"Q0464","kind":"diseases_of_gene","question":"what conditions are caused by variants in COLQ","gold":["GENE|COLQ"],"disease_id":null,"split":"blind"}
+{"qid":"Q0465","kind":"diseases_of_gene","question":"what conditions are caused by variants in OSGEP","gold":["GENE|OSGEP"],"disease_id":null,"split":"dev"}
+{"qid":"Q0466","kind":"diseases_of_gene","question":"what conditions are caused by variants in MC4R","gold":["GENE|MC4R"],"disease_id":null,"split":"blind"}
+{"qid":"Q0467","kind":"diseases_of_gene","question":"what conditions are caused by variants in PEX13","gold":["GENE|PEX13"],"disease_id":null,"split":"blind"}
+{"qid":"Q0468","kind":"diseases_of_gene","question":"what conditions are caused by variants in LSS","gold":["GENE|LSS"],"disease_id":null,"split":"dev"}
+{"qid":"Q0469","kind":"diseases_of_gene","question":"what conditions are caused by variants in SAMD9L","gold":["GENE|SAMD9L"],"disease_id":null,"split":"blind"}
+{"qid":"Q0470","kind":"diseases_of_gene","question":"what conditions are caused by variants in GFRA1","gold":["GENE|GFRA1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0471","kind":"diseases_of_gene","question":"what conditions are caused by variants in MYOC","gold":["GENE|MYOC"],"disease_id":null,"split":"blind"}
+{"qid":"Q0472","kind":"diseases_of_gene","question":"what conditions are caused by variants in ST3GAL3","gold":["GENE|ST3GAL3"],"disease_id":null,"split":"dev"}
+{"qid":"Q0473","kind":"diseases_of_gene","question":"what conditions are caused by variants in EOGT","gold":["GENE|EOGT"],"disease_id":null,"split":"dev"}
+{"qid":"Q0474","kind":"diseases_of_gene","question":"what conditions are caused by variants in MAMLD1","gold":["GENE|MAMLD1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0475","kind":"diseases_of_gene","question":"what conditions are caused by variants in COL6A1","gold":["GENE|COL6A1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0476","kind":"diseases_of_gene","question":"what conditions are caused by variants in MITF","gold":["GENE|MITF"],"disease_id":null,"split":"blind"}
+{"qid":"Q0477","kind":"diseases_of_gene","question":"what conditions are caused by variants in TGFB3","gold":["GENE|TGFB3"],"disease_id":null,"split":"dev"}
+{"qid":"Q0478","kind":"diseases_of_gene","question":"what conditions are caused by variants in ITCH","gold":["GENE|ITCH"],"disease_id":null,"split":"dev"}
+{"qid":"Q0479","kind":"diseases_of_gene","question":"what conditions are caused by variants in SARS1","gold":["GENE|SARS1"],"disease_id":null,"split":"blind"}
+{"qid":"Q0480","kind":"diseases_of_gene","question":"what conditions are caused by variants in GCNA","gold":["GENE|GCNA"],"disease_id":null,"split":"dev"}
+{"qid":"Q0481","kind":"diseases_of_gene","question":"what conditions are caused by variants in STAT5B","gold":["GENE|STAT5B"],"disease_id":null,"split":"blind"}
+{"qid":"Q0482","kind":"diseases_of_gene","question":"what conditions are caused by variants in DLAT","gold":["GENE|DLAT"],"disease_id":null,"split":"blind"}
+{"qid":"Q0483","kind":"diseases_of_gene","question":"what conditions are caused by variants in KRT17","gold":["GENE|KRT17"],"disease_id":null,"split":"dev"}
+{"qid":"Q0484","kind":"diseases_of_gene","question":"what conditions are caused by variants in TTPA","gold":["GENE|TTPA"],"disease_id":null,"split":"blind"}
+{"qid":"Q0485","kind":"diseases_of_gene","question":"what conditions are caused by variants in GLS","gold":["GENE|GLS"],"disease_id":null,"split":"dev"}
+{"qid":"Q0486","kind":"diseases_of_gene","question":"what conditions are caused by variants in INVS","gold":["GENE|INVS"],"disease_id":null,"split":"blind"}
+{"qid":"Q0487","kind":"diseases_of_gene","question":"what conditions are caused by variants in GRM7","gold":["GENE|GRM7"],"disease_id":null,"split":"dev"}
+{"qid":"Q0488","kind":"diseases_of_gene","question":"what conditions are caused by variants in CRTAP","gold":["GENE|CRTAP"],"disease_id":null,"split":"dev"}
+{"qid":"Q0489","kind":"diseases_of_gene","question":"what conditions are caused by variants in DAZ2","gold":["GENE|DAZ2"],"disease_id":null,"split":"dev"}
+{"qid":"Q0490","kind":"diseases_of_gene","question":"what conditions are caused by variants in VEZF1","gold":["GENE|VEZF1"],"disease_id":null,"split":"blind"}
+{"qid":"Q0491","kind":"diseases_of_gene","question":"what conditions are caused by variants in DAB1","gold":["GENE|DAB1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0492","kind":"diseases_of_gene","question":"what conditions are caused by variants in NIPAL4","gold":["GENE|NIPAL4"],"disease_id":null,"split":"blind"}
+{"qid":"Q0493","kind":"diseases_of_gene","question":"what conditions are caused by variants in APRT","gold":["GENE|APRT"],"disease_id":null,"split":"dev"}
+{"qid":"Q0494","kind":"diseases_of_gene","question":"what conditions are caused by variants in DIAPH1","gold":["GENE|DIAPH1"],"disease_id":null,"split":"blind"}
+{"qid":"Q0495","kind":"diseases_of_gene","question":"what conditions are caused by variants in MED25","gold":["GENE|MED25"],"disease_id":null,"split":"dev"}
+{"qid":"Q0496","kind":"diseases_of_gene","question":"what conditions are caused by variants in MRAS","gold":["GENE|MRAS"],"disease_id":null,"split":"dev"}
+{"qid":"Q0497","kind":"diseases_of_gene","question":"what conditions are caused by variants in NDE1","gold":["GENE|NDE1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0498","kind":"diseases_of_gene","question":"what conditions are caused by variants in POMGNT1","gold":["GENE|POMGNT1"],"disease_id":null,"split":"blind"}
+{"qid":"Q0499","kind":"diseases_of_gene","question":"what conditions are caused by variants in TGM5","gold":["GENE|TGM5"],"disease_id":null,"split":"blind"}
+{"qid":"Q0500","kind":"diseases_of_gene","question":"what conditions are caused by variants in LARP7","gold":["GENE|LARP7"],"disease_id":null,"split":"blind"}
+{"qid":"Q0501","kind":"diseases_of_gene","question":"what conditions are caused by variants in VPS35L","gold":["GENE|VPS35L"],"disease_id":null,"split":"blind"}
+{"qid":"Q0502","kind":"diseases_of_gene","question":"what conditions are caused by variants in TMEM237","gold":["GENE|TMEM237"],"disease_id":null,"split":"blind"}
+{"qid":"Q0503","kind":"diseases_of_gene","question":"what conditions are caused by variants in IFT74","gold":["GENE|IFT74"],"disease_id":null,"split":"dev"}
+{"qid":"Q0504","kind":"diseases_of_gene","question":"what conditions are caused by variants in TTC12","gold":["GENE|TTC12"],"disease_id":null,"split":"blind"}
+{"qid":"Q0505","kind":"diseases_of_gene","question":"what conditions are caused by variants in KANK2","gold":["GENE|KANK2"],"disease_id":null,"split":"blind"}
+{"qid":"Q0506","kind":"diseases_of_gene","question":"what conditions are caused by variants in SPTBN2","gold":["GENE|SPTBN2"],"disease_id":null,"split":"blind"}
+{"qid":"Q0507","kind":"diseases_of_gene","question":"what conditions are caused by variants in STAT6","gold":["GENE|STAT6"],"disease_id":null,"split":"dev"}
+{"qid":"Q0508","kind":"diseases_of_gene","question":"what conditions are caused by variants in POLR1D","gold":["GENE|POLR1D"],"disease_id":null,"split":"blind"}
+{"qid":"Q0509","kind":"diseases_of_gene","question":"what conditions are caused by variants in DNAH5","gold":["GENE|DNAH5"],"disease_id":null,"split":"blind"}
+{"qid":"Q0510","kind":"diseases_of_gene","question":"what conditions are caused by variants in BAX","gold":["GENE|BAX"],"disease_id":null,"split":"dev"}
+{"qid":"Q0511","kind":"diseases_of_gene","question":"what conditions are caused by variants in TBX6","gold":["GENE|TBX6"],"disease_id":null,"split":"dev"}
+{"qid":"Q0512","kind":"diseases_of_gene","question":"what conditions are caused by variants in PIK3CA","gold":["GENE|PIK3CA"],"disease_id":null,"split":"dev"}
+{"qid":"Q0513","kind":"diseases_of_gene","question":"what conditions are caused by variants in DNAH1","gold":["GENE|DNAH1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0514","kind":"diseases_of_gene","question":"what conditions are caused by variants in UROS","gold":["GENE|UROS"],"disease_id":null,"split":"dev"}
+{"qid":"Q0515","kind":"diseases_of_gene","question":"what conditions are caused by variants in CPT2","gold":["GENE|CPT2"],"disease_id":null,"split":"dev"}
+{"qid":"Q0516","kind":"diseases_of_gene","question":"what conditions are caused by variants in EIF4A3","gold":["GENE|EIF4A3"],"disease_id":null,"split":"dev"}
+{"qid":"Q0517","kind":"diseases_of_gene","question":"what conditions are caused by variants in SLC25A1","gold":["GENE|SLC25A1"],"disease_id":null,"split":"blind"}
+{"qid":"Q0518","kind":"diseases_of_gene","question":"what conditions are caused by variants in THPO","gold":["GENE|THPO"],"disease_id":null,"split":"blind"}
+{"qid":"Q0519","kind":"diseases_of_gene","question":"what conditions are caused by variants in COL10A1","gold":["GENE|COL10A1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0520","kind":"diseases_of_gene","question":"what conditions are caused by variants in MYL4","gold":["GENE|MYL4"],"disease_id":null,"split":"blind"}
+{"qid":"Q0521","kind":"diseases_of_gene","question":"what conditions are caused by variants in TRPV3","gold":["GENE|TRPV3"],"disease_id":null,"split":"dev"}
+{"qid":"Q0522","kind":"diseases_of_gene","question":"what conditions are caused by variants in EDNRA","gold":["GENE|EDNRA"],"disease_id":null,"split":"dev"}
+{"qid":"Q0523","kind":"diseases_of_gene","question":"what conditions are caused by variants in TEK","gold":["GENE|TEK"],"disease_id":null,"split":"dev"}
+{"qid":"Q0524","kind":"diseases_of_gene","question":"what conditions are caused by variants in INSR","gold":["GENE|INSR"],"disease_id":null,"split":"blind"}
+{"qid":"Q0525","kind":"diseases_of_gene","question":"what conditions are caused by variants in ALAD","gold":["GENE|ALAD"],"disease_id":null,"split":"blind"}
+{"qid":"Q0526","kind":"diseases_of_gene","question":"what conditions are caused by variants in TRAIP","gold":["GENE|TRAIP"],"disease_id":null,"split":"blind"}
+{"qid":"Q0527","kind":"diseases_of_gene","question":"what conditions are caused by variants in CEP120","gold":["GENE|CEP120"],"disease_id":null,"split":"blind"}
+{"qid":"Q0528","kind":"diseases_of_gene","question":"what conditions are caused by variants in GREB1L","gold":["GENE|GREB1L"],"disease_id":null,"split":"dev"}
+{"qid":"Q0529","kind":"diseases_of_gene","question":"what conditions are caused by variants in ATOH7","gold":["GENE|ATOH7"],"disease_id":null,"split":"dev"}
+{"qid":"Q0530","kind":"diseases_of_gene","question":"what conditions are caused by variants in FOXF1","gold":["GENE|FOXF1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0531","kind":"diseases_of_gene","question":"what conditions are caused by variants in GFAP","gold":["GENE|GFAP"],"disease_id":null,"split":"blind"}
+{"qid":"Q0532","kind":"diseases_of_gene","question":"what conditions are caused by variants in IDUA","gold":["GENE|IDUA"],"disease_id":null,"split":"blind"}
+{"qid":"Q0533","kind":"diseases_of_gene","question":"what conditions are caused by variants in PIBF1","gold":["GENE|PIBF1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0534","kind":"diseases_of_gene","question":"what conditions are caused by variants in DALRD3","gold":["GENE|DALRD3"],"disease_id":null,"split":"dev"}
+{"qid":"Q0535","kind":"diseases_of_gene","question":"what conditions are caused by variants in SAMHD1","gold":["GENE|SAMHD1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0536","kind":"diseases_of_gene","question":"what conditions are caused by variants in DNAH10","gold":["GENE|DNAH10"],"disease_id":null,"split":"blind"}
+{"qid":"Q0537","kind":"diseases_of_gene","question":"what conditions are caused by variants in PNKD","gold":["GENE|PNKD"],"disease_id":null,"split":"dev"}
+{"qid":"Q0538","kind":"diseases_of_gene","question":"what conditions are caused by variants in INF2","gold":["GENE|INF2"],"disease_id":null,"split":"dev"}
+{"qid":"Q0539","kind":"diseases_of_gene","question":"what conditions are caused by variants in NARS2","gold":["GENE|NARS2"],"disease_id":null,"split":"blind"}
+{"qid":"Q0540","kind":"diseases_of_gene","question":"what conditions are caused by variants in TAF13","gold":["GENE|TAF13"],"disease_id":null,"split":"blind"}
+{"qid":"Q0541","kind":"diseases_of_gene","question":"what conditions are caused by variants in CASR","gold":["GENE|CASR"],"disease_id":null,"split":"blind"}
+{"qid":"Q0542","kind":"diseases_of_gene","question":"what conditions are caused by variants in MEF2C","gold":["GENE|MEF2C"],"disease_id":null,"split":"blind"}
+{"qid":"Q0543","kind":"diseases_of_gene","question":"what conditions are caused by variants in KIAA0586","gold":["GENE|KIAA0586"],"disease_id":null,"split":"blind"}
+{"qid":"Q0544","kind":"diseases_of_gene","question":"what conditions are caused by variants in RNASEH2B","gold":["GENE|RNASEH2B"],"disease_id":null,"split":"blind"}
+{"qid":"Q0545","kind":"diseases_of_gene","question":"what conditions are caused by variants in BICD2","gold":["GENE|BICD2"],"disease_id":null,"split":"blind"}
+{"qid":"Q0546","kind":"diseases_of_gene","question":"what conditions are caused by variants in ECE1","gold":["GENE|ECE1"],"disease_id":null,"split":"dev"}
+{"qid":"Q0547","kind":"diseases_of_gene","question":"what conditions are caused by variants in MT-ATP8","gold":["GENE|MT-ATP8"],"disease_id":null,"split":"dev"}
+{"qid":"Q0548","kind":"diseases_of_gene","question":"what conditions are caused by variants in MLPH","gold":["GENE|MLPH"],"disease_id":null,"split":"dev"}
+{"qid":"Q0549","kind":"diseases_of_gene","question":"what conditions are caused by variants in HSPB1","gold":["GENE|HSPB1"],"disease_id":null,"split":"blind"}

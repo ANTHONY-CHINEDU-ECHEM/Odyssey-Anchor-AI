@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 ANTHONY CHINEDU ECHEM
+Copyright (c) 2026 Odyssey Anchor AI contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Third party data
+The Human Phenotype Ontology and its annotations are used under the HPO terms of
+use (https://hpo.jax.org/license), which require attribution and the release
+version; they are not modified and are downloaded at build time. The Mondo
+Disease Ontology is licensed CC BY 4.0. The GA4GH phenopacket store is licensed
+CC BY 4.0. Derived passages restate these sources and keep their identifiers
+and references so every statement can be traced back.

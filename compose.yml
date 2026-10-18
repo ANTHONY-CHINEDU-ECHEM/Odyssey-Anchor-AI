@@ -1,0 +1,17 @@
+services:
+  odyssey-anchor:
+    build: .
+    image: odyssey-anchor-ai:1.0.0
+    ports:
+      - "8000:8000"
+    environment:
+      # Optional language model writer for free text answers (verified like everything else).
+      ODYSSEY_LLM: ${ODYSSEY_LLM:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      ODYSSEY_LLM_MODEL: ${ODYSSEY_LLM_MODEL:-claude-sonnet-5-5}
+    volumes:
+      - audit:/app/data/audit
+    restart: unless-stopped
+
+volumes:
+  audit:

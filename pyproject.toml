@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odyssey-anchor-ai"
+version = "1.0.0"
+description = "Phenotype driven rare disease differential diagnosis with a verified graph retrieval copilot"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "pyarrow>=14",
+  "scipy>=1.11",
+  "scikit-learn>=1.4",
+  "lightgbm>=4.1",
+  "matplotlib>=3.8",
+  "fastapi>=0.110",
+  "uvicorn>=0.27",
+  "pydantic>=2.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx>=0.27", "playwright>=1.44"]
+
+[project.scripts]
+odyssey-anchor = "odyssey_anchor.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["odyssey_anchor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

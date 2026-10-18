@@ -1,8 +1,18 @@
 # Odyssey Anchor AI
 
-![architecture](reports/figures/architecture.png)
+<p align="center">
+<img width="2400" height="1770" alt="architecture" src="https://github.com/user-attachments/assets/34944343-55e8-4080-a25c-e70d454c409c" />
+</p>
 
 SOURCE: <https://hpo.jax.org> · <https://mondo.monarchinitiative.org> · <https://github.com/monarch-initiative/phenopacket-store>
+
+<p align="center">
+<img width="447" height="335" alt="image" src="https://github.com/user-attachments/assets/eedb81cf-baa2-4e5a-8631-ef478e8d5a63" />
+</p>
+
+
+SOURCE: https://www.facebook.com/HealthyLivingMo/posts/the-zebra-is-the-official-symbol-of-rare-diseases-in-the-united-states-and-is-no/326766529492591/
+
 
 **Phenotype driven rare disease differential diagnosis with a verified graph retrieval copilot. A Bayesian and semantic ranker scores all 12,880 annotated diseases; a constrained learned ranker fuses and calibrates them; every candidate comes with its evidence path, the next question that best separates the leaders, a gene panel, and answers drawn from a 112,371 passage knowledge base in which every sentence is cited and verified. Built entirely on public data and scored once, under a strict anti leakage protocol, on 2,045 real published patients whose diseases and genes were never seen during development.**
 
@@ -16,7 +26,9 @@ Odyssey Anchor AI is that system, built as a copilot a clinician can question. G
 
 The evaluation is built to be believed. Before any index or model existed, the published patients were split by cohort so that 188 diseases and their genes appear only in a blind set, and the blind set was hashed and scored exactly once. Most importantly, the disease annotations are themselves curated from the same papers the patients come from: 75% of patients come from a paper the annotations cite, and for one in five, every annotation of their disease rests on that paper alone. Scoring a patient against annotations copied from their own description measures recall of the literature, not diagnosis. Every number reported here therefore uses a strict protocol that removes, for each patient, every annotation resting only on that patient's paper, and the gap to the usual practice is reported alongside.
 
-![case](docs/screenshots/case.png)
+<p align="center">
+<img width="1800" height="3811" alt="case" src="https://github.com/user-attachments/assets/7a8a6daf-9ff0-495f-ac86-5a96bf92525f" />
+</p>
 
 ## What it does
 
@@ -39,33 +51,53 @@ To run the full service with the knowledge retrieval copilot, see Running it bel
 
 ## Screenshots
 
-![evidence](docs/screenshots/evidence.png)
+<p align="center">
+<img width="694" height="1730" alt="evidence" src="https://github.com/user-attachments/assets/4eae092a-d6d8-4a73-a8b7-d9461e2b7f13" />
+</p>
+
+
 
 **Evidence path.** A blind case whose source paper has been removed from the knowledge base. The published diagnosis, Waardenburg syndrome type 3, ranks first at 57%. Each recorded feature is linked to the disease annotation that explains it, with the ontology link (same term, more specific, more general or a shared ancestor), the annotated frequency and the feature's log likelihood ratio. Features recorded absent that the disease usually shows are listed, as are the characteristic features not yet recorded.
 
-![note](docs/screenshots/note.png)
+<p align="center">
+<img width="1800" height="2341" alt="note" src="https://github.com/user-attachments/assets/ae3dae6a-60a7-4ffb-8f67-4fcd384632f6" />
+</p>
 
 **A written note, analysed in the page.** Identifiers are redacted before anything else happens. Each phenotype is read as present, recorded absent, family history or uncertain, and the father's myopia is kept out of the patient's record. The differential, evidence and questions are computed in the browser.
 
-![question](docs/screenshots/question_answered.png)
+<p align="center">
+<img width="540" height="2199" alt="question_answered" src="https://github.com/user-attachments/assets/d8a166cd-3383-4560-8d7a-cbcfdece2c80" />
+</p>
+
 
 **Next best question.** Each suggestion shows its expected information gain in bits and which candidate a present or absent answer would favour. Answering updates the differential at once.
 
-![summary](docs/screenshots/summary.png)
+<p align="center">
+<img width="694" height="1761" alt="summary" src="https://github.com/user-attachments/assets/2b18b949-2233-4bec-828b-b335d67ab72f" />
+</p>
+
 
 **Cited summary.** Every sentence names its sources: the patient record, the model output or a knowledge passage. Clicking a source shows its text. The verifier count sits in the header.
 
-![results](docs/screenshots/results.png)
+<p align="center">
+<img width="1800" height="3734" alt="results" src="https://github.com/user-attachments/assets/b19568dd-e030-49d4-aace-486ce3caa735" />
+</p>
+
 
 **Blind results.** The single blind run, from the headline to calibration, subgroups, robustness and the next question simulation.
 
 DARK THEME
 
-![dark](docs/screenshots/dark.png)
+<p align="center">
+<img width="1800" height="1250" alt="dark" src="https://github.com/user-attachments/assets/d411e4dd-5eaf-4352-9064-e1d2a9497567" />
+</p>
+
 
 PHONE
 
-![phone](docs/screenshots/phone.png)
+<p align="center">
+<img width="800" height="1720" alt="phone" src="https://github.com/user-attachments/assets/e7fac4c9-d66e-4e5e-a33f-8e075ebe9cf4" />
+</p>
 
 ## Results
 
@@ -82,11 +114,16 @@ PHONE
 
 The probability of the leading candidate is well calibrated: expected calibration error 0.046, Brier score 0.134.
 
-![calibration](reports/figures/calibration.png)
+<p align="center">
+<img width="800" height="736" alt="calibration" src="https://github.com/user-attachments/assets/f26c541b-c346-4ddd-9a98-76f522bd071e" />
+</p>
 
 ### The leakage that the strict protocol removes
 
-![leakage](reports/figures/leakage.png)
+<p align="center">
+<img width="1200" height="640" alt="leakage" src="https://github.com/user-attachments/assets/88d69628-7865-40ed-ab0d-d49ca71996d6" />
+</p>
+
 
 | Same 2,045 blind patients, Mondo concept | Top 1 | Top 10 | MRR |
 | --- | --- | --- | --- |
@@ -103,7 +140,9 @@ Scoring against the released annotations makes the same system look two and a ha
 
 ### Rankers
 
-![rankers](reports/figures/rankers.png)
+<p align="center">
+<img width="1760" height="704" alt="rankers" src="https://github.com/user-attachments/assets/9fc63857-a4ad-4a4c-876c-5e4277940633" />
+</p>
 
 | Exact identifier, blind | Top 1 | Top 10 | Top 50 | MRR |
 | --- | --- | --- | --- | --- |
@@ -117,7 +156,9 @@ Scoring against the released annotations makes the same system look two and a ha
 
 The browser ranker, which uses ontology features only, reaches 23.0% top 1 and 42.0% top 10 at concept level, level with the product.
 
-![cumulative](reports/figures/topk_curve.png)
+<p align="center">
+<img width="1200" height="672" alt="topk_curve" src="https://github.com/user-attachments/assets/226f88f6-43b0-46c4-b0ce-18c50c741a6a" />
+</p>
 
 ### A curation artifact, found and removed before the blind run
 
@@ -129,7 +170,9 @@ Both learned rankers are now constrained so that every piece of evidence can onl
 
 ### Next best question
 
-![next question](reports/figures/next_question.png)
+<p align="center">
+<img width="1920" height="672" alt="next_question" src="https://github.com/user-attachments/assets/1c8fc061-a75f-4554-a28f-57d3048f4dfc" />
+</p>
 
 | 200 blind patients, half the features hidden, five questions | Top 1 start | Top 1 after 5 | MRR after 5 |
 | --- | --- | --- | --- |
@@ -141,7 +184,9 @@ Answers come from a simulated patient with the true disease, drawn from its anno
 
 ### Knowledge retrieval
 
-![retrieval](reports/figures/retrieval.png)
+<p align="center">
+<img width="1200" height="576" alt="retrieval" src="https://github.com/user-attachments/assets/d2e676b1-442d-403f-ac89-71a600607013" />
+</p>
 
 | 403 blind questions | Hit@1 | Recall@3 | MRR |
 | --- | --- | --- | --- |
@@ -165,7 +210,9 @@ Answers come from a simulated patient with the true disease, drawn from its anno
 | Safety probes | 25 of 25 |
 | Median copilot run | 459 ms on two cores |
 
-![verifier](reports/figures/verifier.png)
+<p align="center">
+<img width="1200" height="608" alt="verifier" src="https://github.com/user-attachments/assets/5f307b9b-b8b0-4d5e-a943-dd2c475f4d6c" />
+</p>
 
 ### Where it fails
 
@@ -180,13 +227,21 @@ Answers come from a simulated patient with the true disease, drawn from its anno
 | The ranker leans on profile size | 43% of split gain; the strict protocol shrinks the true disease's profile, so part of this may not transfer to unstripped use |
 | Extraction is measured on generated prose | notes are rendered from structured cases, not written by clinicians |
 
-![robustness](reports/figures/robustness.png)
 
-![subgroups](reports/figures/subgroups.png)
+<p align="center">
+<img width="1200" height="576" alt="robustness" src="https://github.com/user-attachments/assets/3b2b1847-8235-4304-b0e7-273dd3480f9f" />
+</p>
+
+<p align="center">
+<img width="1200" height="1904" alt="subgroups" src="https://github.com/user-attachments/assets/c7fa9f74-8aa6-43fe-95f6-c11417b38ebb" />
+</p>
 
 ## Architecture
 
-![architecture](reports/figures/architecture.png)
+<p align="center">
+<img width="2400" height="1770" alt="architecture" src="https://github.com/user-attachments/assets/b90eca54-629e-4d05-a0a6-84aad8050cd8" />
+</p>
+
 
 ```
 GitHub release assets ──► raw sources and SHA256 manifest                     make data

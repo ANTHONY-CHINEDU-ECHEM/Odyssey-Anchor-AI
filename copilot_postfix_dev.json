@@ -1,0 +1,9 @@
+{
+  "note": "Two composer defects were found on development cases after the blind run (the opening sentence stated counts that no source contained, and contradictions printed raw HPO frequency codes). Both were fixed in odyssey_anchor/agent/composer.py. The blind copilot figures in evaluation_blind.json were measured before the fix and are reported unchanged; this file is the development check after the fix.",
+  "cases": 150,
+  "split": "dev",
+  "sentences": 3262,
+  "verified": 3261,
+  "verified_share": 0.9997,
+  "drop_reasons": {"no_treatment": 1}
+}

@@ -1,0 +1,1659 @@
+{
+  "generated_utc": "2026-10-17T23:03:53+00:00",
+  "fusion_cross_validation": {
+    "linear": {
+      "identifier": {
+        "top1": 0.09719283396811962,
+        "top3": 0.154746790802652,
+        "top10": 0.26153195090986037,
+        "top50": 0.4514035830159402,
+        "mrr": 0.15125884504990433,
+        "median_rank": 69.0,
+        "n": 7089
+      },
+      "concept": {
+        "top1": 0.1117223867964452,
+        "top3": 0.17223867964451967,
+        "top10": 0.2920016927634363,
+        "top50": 0.506136267456623,
+        "mrr": 0.16992249071379847,
+        "median_rank": 49.0,
+        "n": 7089
+      }
+    },
+    "lambdamart": {
+      "identifier": {
+        "top1": 0.23980815347721823,
+        "top3": 0.34137395965580475,
+        "top10": 0.41571448723374244,
+        "top50": 0.5148822118775568,
+        "mrr": 0.30519936170665984,
+        "median_rank": 42.0,
+        "n": 7089
+      },
+      "concept": {
+        "top1": 0.2718295951474115,
+        "top3": 0.37127944703061083,
+        "top10": 0.4533784736916349,
+        "top50": 0.5588940612216109,
+        "mrr": 0.3374958081378424,
+        "median_rank": 21.0,
+        "n": 7089
+      }
+    },
+    "lambdamart_unconstrained": {
+      "identifier": {
+        "top1": 0.28311468472281,
+        "top3": 0.392721117223868,
+        "top10": 0.4803216250528989,
+        "top50": 0.5921850754690365,
+        "mrr": 0.353901952720454,
+        "median_rank": 14.0,
+        "n": 7089
+      },
+      "concept": {
+        "top1": 0.3140076174354634,
+        "top3": 0.4181125687685146,
+        "top10": 0.5051488221187755,
+        "top50": 0.6129214275638313,
+        "mrr": 0.3822387901052776,
+        "median_rank": 10.0,
+        "n": 7089
+      }
+    }
+  },
+  "product": "lambdamart",
+  "temperature": 1.267646644770888,
+  "base_rankers_dev": {
+    "lr": {
+      "top1": 0.20863309352517986,
+      "top3": 0.302158273381295,
+      "top10": 0.39497813513894764,
+      "top50": 0.5043024404006207,
+      "mrr": 0.27346299345693137,
+      "median_rank": 48.0,
+      "n": 7089
+    },
+    "bma": {
+      "top1": 0.12357173085061363,
+      "top3": 0.24107772605445055,
+      "top10": 0.37762730991677246,
+      "top50": 0.5349132458738891,
+      "mrr": 0.2085661300319525,
+      "median_rank": 35.0,
+      "n": 7089
+    },
+    "p2d": {
+      "top1": 0.29538721963605585,
+      "top3": 0.3530822400902807,
+      "top10": 0.41853575962759204,
+      "top50": 0.5258851742135703,
+      "mrr": 0.3384600507449783,
+      "median_rank": 35.0,
+      "n": 7089
+    },
+    "d2p": {
+      "top1": 0.004655099449851883,
+      "top3": 0.011426153195090986,
+      "top10": 0.03117505995203837,
+      "top50": 0.11045281421921287,
+      "mrr": 0.016939613075150805,
+      "median_rank": 563.0,
+      "n": 7089
+    },
+    "exact": {
+      "top1": 0.3412328960361123,
+      "top3": 0.4054168429961913,
+      "top10": 0.47820567075751164,
+      "top50": 0.588517421357032,
+      "mrr": 0.38868120378217463,
+      "median_rank": 14.0,
+      "n": 7089
+    },
+    "bm25": {
+      "top1": 0.1698405981097475,
+      "top3": 0.28494851177881225,
+      "top10": 0.392438989984483,
+      "top50": 0.5193962477077162,
+      "mrr": 0.2468205035783485,
+      "median_rank": 40.0,
+      "n": 7089
+    },
+    "lsa": {
+      "top1": 0.06559458315700381,
+      "top3": 0.14529552828325576,
+      "top10": 0.26590492312032726,
+      "top50": 0.4473127380448582,
+      "mrr": 0.13230849882404788,
+      "median_rank": 76.0,
+      "n": 7089
+    }
+  },
+  "leakage_dev": {
+    "strict": {
+      "top1": 0.4033333333333333,
+      "top3": 0.474,
+      "top10": 0.5426666666666666,
+      "top50": 0.6173333333333333,
+      "mrr": 0.4527295321901344,
+      "median_rank": 4.0,
+      "n": 1500
+    },
+    "released": {
+      "top1": 0.71,
+      "top3": 0.7926666666666666,
+      "top10": 0.85,
+      "top50": 0.892,
+      "mrr": 0.7597627342645963,
+      "median_rank": 1.0,
+      "n": 1500
+    },
+    "note": "same cases; final product model trained on development data, so these are in sample"
+  },
+  "subgroups_dev_in_sample": {
+    "sex_group": {
+      "female": {
+        "n": 666,
+        "top1": 0.3978978978978979,
+        "top10": 0.5285285285285285,
+        "mrr": 0.445005052552439
+      },
+      "male": {
+        "n": 757,
+        "top1": 0.3844121532364597,
+        "top10": 0.52443857331572,
+        "mrr": 0.43265094914514324
+      },
+      "not recorded": {
+        "n": 77,
+        "top1": 0.6363636363636364,
+        "top10": 0.8441558441558441,
+        "mrr": 0.7169372049662838
+      }
+    },
+    "age_band": {
+      "1 to 5": {
+        "n": 258,
+        "top1": 0.3798449612403101,
+        "top10": 0.5038759689922481,
+        "mrr": 0.419113029499371
+      },
+      "18 and over": {
+        "n": 449,
+        "top1": 0.40979955456570155,
+        "top10": 0.5879732739420935,
+        "mrr": 0.47258132437833916
+      },
+      "6 to 17": {
+        "n": 416,
+        "top1": 0.3605769230769231,
+        "top10": 0.47836538461538464,
+        "mrr": 0.4036140870925093
+      },
+      "under 1": {
+        "n": 71,
+        "top1": 0.4084507042253521,
+        "top10": 0.49295774647887325,
+        "mrr": 0.44138562740725834
+      },
+      "unknown": {
+        "n": 306,
+        "top1": 0.47058823529411764,
+        "top10": 0.6078431372549019,
+        "mrr": 0.5213473276212106
+      }
+    },
+    "obs_band": {
+      "11 to 20": {
+        "n": 450,
+        "top1": 0.4088888888888889,
+        "top10": 0.5377777777777778,
+        "mrr": 0.45009691605540464
+      },
+      "3 to 5": {
+        "n": 407,
+        "top1": 0.4103194103194103,
+        "top10": 0.5601965601965602,
+        "mrr": 0.4669193644594109
+      },
+      "6 to 10": {
+        "n": 555,
+        "top1": 0.4,
+        "top10": 0.5459459459459459,
+        "mrr": 0.4536187057941994
+      },
+      "over 20": {
+        "n": 88,
+        "top1": 0.36363636363636365,
+        "top10": 0.4659090909090909,
+        "mrr": 0.3949559432898722
+      }
+    },
+    "profile_band": {
+      "1 to 9": {
+        "n": 88,
+        "top1": 0.09090909090909091,
+        "top10": 0.375,
+        "mrr": 0.17725823471498292
+      },
+      "10 to 29": {
+        "n": 420,
+        "top1": 0.3357142857142857,
+        "top10": 0.5119047619047619,
+        "mrr": 0.4059002429977574
+      },
+      "30 or more": {
+        "n": 702,
+        "top1": 0.603988603988604,
+        "top10": 0.7606837606837606,
+        "mrr": 0.656691941032741
+      },
+      "none left": {
+        "n": 290,
+        "top1": 0.1103448275862069,
+        "top10": 0.1103448275862069,
+        "mrr": 0.11041285850427898
+      }
+    },
+    "inheritance": {
+      "X linked": {
+        "n": 40,
+        "top1": 0.25,
+        "top10": 0.325,
+        "mrr": 0.2851248142975064
+      },
+      "autosomal dominant": {
+        "n": 903,
+        "top1": 0.4407530454042082,
+        "top10": 0.5780730897009967,
+        "mrr": 0.48845184779122874
+      },
+      "autosomal recessive": {
+        "n": 518,
+        "top1": 0.3416988416988417,
+        "top10": 0.4826254826254826,
+        "mrr": 0.39115148618161727
+      },
+      "mixed or other": {
+        "n": 39,
+        "top1": 0.5128205128205128,
+        "top10": 0.7435897435897436,
+        "mrr": 0.615405572198569
+      }
+    }
+  },
+  "extraction_dev": {
+    "cases": 500,
+    "observed": {
+      "precision": 0.9432348367029549,
+      "recall": 0.9881873727087577,
+      "f1": 0.9651879848816393,
+      "gold": 4910
+    },
+    "observed_tolerant_precision": 0.9461508553654744,
+    "excluded": {
+      "precision": 0.9783393501805054,
+      "recall": 0.8823768823768824,
+      "gold": 2457
+    },
+    "family_leak_rate": 0.0,
+    "family_distractors": 1000,
+    "examples": [
+      {
+        "case_id": "PMID_28542676_MEH3_GC20390",
+        "note": "This 54 year old adult was referred for genetic assessment. Absence of Macular atrophy, Reduced visual acuity or hyperautofluorescence perifoveal ring was documented. Findings included Central scotoma and Macular edema. Growth parameters were reviewed at each visit. Family history: the maternal aunt has Intestinal polyps. Family history: the paternal grandfather has Outward turned elbows. Further review identified Central thinning of the ONL. Clinically there was hypo-autofluorescent retinal lesion, Abnormal pattern electroretinogram and Nyctalopia.",
+        "missed": [],
+        "extra": [
+          "HP:0007401"
+        ]
+      },
+      {
+        "case_id": "PMID_39013458_individual_KS110040",
+        "note": "This 4 year old girl was referred for genetic assessment. Family history: the older brother has heart stops beating. On examination there was hypotonia, cross-eyed and chronic constipation. Family history: the paternal grandfather has Brainstem atrophy. She denies Hypospadias. She was negative for Cryptorchidism or abnormally small skull. On examination there was infections, recurrent, large for gestational age and joint hypermobility. She was noted to have Heartburn and global developmental delay. She was negative for hydronephrosis or urinary tract infections, recurrent. She was noted to have intellectual disability, decreased oral intake and Farsightedness. There was no evidence of Ureter",
+        "missed": [],
+        "extra": [
+          "HP:0002376"
+        ]
+      },
+      {
+        "case_id": "PMID_34521999_Individual_46",
+        "note": "This 3 year old girl was referred for genetic assessment. Clinically there was Delayed speech and language development, upper lip thin red part and Thoracic hemivertebrae. She was noted to have Patent ductus arteriosus after birth at term. She was noted to have mental retardation, severe and Fused ribs. She presented without deeply set eye, small midface or abnormal renal morphology. The history includes Abnormal finger morphology, Palpebral ptosis and Feeding difficulties. Assessment showed shortened gestation time and Down slanting palpebral fissures. Family history: the paternal grandfather has paralysis on one side of body. She has no Tooth abnormalities or visual impairment. Absence of ",
+        "missed": [
+          "HP:0001270"
+        ],
+        "extra": [
+          "HP:0000520",
+          "HP:0001263"
+        ]
+      },
+      {
+        "case_id": "PMID_36214804_P9",
+        "note": "This 27 year old adult was referred for genetic assessment. The history includes Autistic behaviours, Repeated seizures without recovery between them and Chronic constipation. Family history: the older brother has increased hepatocellular carcinoma risk. She was negative for Upslanting palpebral fissures, retrusive midface or lower lip vermilion increased volume. Thin upper lip vermilion was not observed. Family history: the older brother has Absent/underdeveloped uvea. The history includes interictal eeg abnormality and moderate intellectual disability. Assessment showed strabismus. She was noted to have motor stereotypy, anomalous pulmonary venous return and Dystonic gait. Absence of promi",
+        "missed": [
+          "HP:0012450"
+        ],
+        "extra": [
+          "HP:0000286"
+        ]
+      },
+      {
+        "case_id": "PMID_36446582_Scarano_2013_P10",
+        "note": "The patient was referred for genetic assessment. The history includes mental retardation, nonspecific, undescended testes and protruding ear. Clinically there was Large tooth and Hand anomalies. Routine biochemistry was reported as normal. Family history: the paternal grandfather has Mucocutaneous candidiasis. Further review identified Increased length of philtrum. Stature below 3rd percentile was ruled out. There is no history of bicuspid aortic valve or Intrauterine growth retardation. He presented without Ventricular septal defects, atrioventricular septal defect or pulmonary valve stenosis. Findings included Delayed bone age before puberty. He has remained free of Atrial septal defect or",
+        "missed": [],
+        "extra": [
+          "HP:0001631"
+        ]
+      },
+      {
+        "case_id": "PMID_28686853_Individual_15",
+        "note": "This 14 year old boy was referred for genetic assessment. He was noted to have Large oral aperture. Further review identified coarse face and hyperopia. The history includes febrile seizures and thick vermilion border. He presented without brachycephaly or Myopia. Further review identified Nonprogressive mental retardation, Broad nasal tip and Decreased height of philtrum. Findings included Absent cupid's bow and hypertelorism. Routine biochemistry was reported as normal. Findings included upper jaw bone excess. Family history: the father has blood circulation abnormality. Family history: the father has atopic dermatitis. Megalophthalmos was absent. There is no history of narrow forehead or ",
+        "missed": [
+          "HP:0000316"
+        ],
+        "extra": []
+      }
+    ]
+  },
+  "retrieval_dev": {
+    "n": 477,
+    "methods": {
+      "bm25": {
+        "hit1": 0.37735849056603776,
+        "recall3": 0.4863731656184486,
+        "mrr": 0.4449685189705284,
+        "ndcg10": 0.4621070982510327
+      },
+      "lsa": {
+        "hit1": 0.12578616352201258,
+        "recall3": 0.17819706498951782,
+        "mrr": 0.17036294817243391,
+        "ndcg10": 0.17730891636780194
+      },
+      "hybrid": {
+        "hit1": 0.350104821802935,
+        "recall3": 0.4591194968553459,
+        "mrr": 0.4170040787857403,
+        "ndcg10": 0.4356117156576558
+      },
+      "learned": {
+        "hit1": 0.9182389937106918,
+        "recall3": 1.0,
+        "mrr": 0.9566736547868624,
+        "ndcg10": 0.9679030442647519
+      },
+      "learned_without_kind_fit": {
+        "hit1": 0.859538784067086,
+        "recall3": 0.9874213836477987,
+        "mrr": 0.9218728162124389,
+        "ndcg10": 0.9418889727844709
+      },
+      "learned_without_ent_disease": {
+        "hit1": 0.80083857442348,
+        "recall3": 0.9056603773584906,
+        "mrr": 0.8580021082549903,
+        "ndcg10": 0.8802856800749711
+      },
+      "learned_without_lsa": {
+        "hit1": 0.9182389937106918,
+        "recall3": 1.0,
+        "mrr": 0.9570230607966457,
+        "ndcg10": 0.9681775301212958
+      }
+    },
+    "by_kind": {
+      "define_feature": {
+        "n": 55,
+        "hit1": 1.0,
+        "mrr": 1.0
+      },
+      "diseases_of_gene": {
+        "n": 58,
+        "hit1": 1.0,
+        "mrr": 1.0
+      },
+      "feature_in_disease": {
+        "n": 69,
+        "hit1": 0.7536231884057971,
+        "mrr": 0.859903381642512
+      },
+      "feature_in_disease_in_session": {
+        "n": 69,
+        "hit1": 1.0,
+        "mrr": 1.0
+      },
+      "genes_of_disease": {
+        "n": 56,
+        "hit1": 0.8035714285714286,
+        "mrr": 0.9017857142857143
+      },
+      "genes_of_disease_in_session": {
+        "n": 56,
+        "hit1": 1.0,
+        "mrr": 1.0
+      },
+      "inheritance": {
+        "n": 57,
+        "hit1": 0.8070175438596491,
+        "mrr": 0.9035087719298246
+      },
+      "inheritance_in_session": {
+        "n": 57,
+        "hit1": 1.0,
+        "mrr": 1.0
+      }
+    },
+    "misses": [
+      {
+        "qid": "Q0002",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to DES myofibrillar myopathy (disease)?",
+        "gold": [
+          "DIS|ORPHA:98909|overview"
+        ],
+        "got": [
+          "DIS|OMIM:601419|overview",
+          "DIS|ORPHA:98909|overview",
+          "HPO|HP:0003715"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0003",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to Snyder-Robinson syndrome?",
+        "gold": [
+          "DIS|ORPHA:3063|overview"
+        ],
+        "got": [
+          "DIS|OMIM:309583|overview",
+          "DIS|ORPHA:3063|overview",
+          "GENE|SMS"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0014",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to Joubert syndrome with orofaciodigital defect?",
+        "gold": [
+          "DIS|ORPHA:2754|overview"
+        ],
+        "got": [
+          "DIS|OMIM:277170|overview",
+          "DIS|ORPHA:2754|overview",
+          "GRP|MONDO:0013824"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0018",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to SCAR20?",
+        "gold": [
+          "DIS|OMIM:616354|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:397709|overview",
+          "DIS|OMIM:616354|overview",
+          "DIS|ORPHA:101110|overview"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0024",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to intellectual disability, X-linked, syndromic, Borck type?",
+        "gold": [
+          "DIS|ORPHA:85282|overview"
+        ],
+        "got": [
+          "DIS|OMIM:300148|overview",
+          "DIS|ORPHA:85282|overview",
+          "DIS|OMIM:300148|HP:0000707"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0028",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to Lujan syndrome?",
+        "gold": [
+          "DIS|OMIM:309520|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:776|overview",
+          "DIS|OMIM:309520|overview",
+          "DIS|OMIM:309520|HP:0000478"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0035",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to Brittle cornea syndrome?",
+        "gold": [
+          "DIS|ORPHA:90354|overview"
+        ],
+        "got": [
+          "DIS|OMIM:229200|overview",
+          "DIS|ORPHA:90354|overview",
+          "DIS|OMIM:614170|overview"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0048",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to TP53 Li-Fraumeni syndrome?",
+        "gold": [
+          "DIS|OMIM:151623|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:524|overview",
+          "DIS|OMIM:151623|overview",
+          "GENE|TP53"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0061",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to Robinow-Unger syndrome?",
+        "gold": [
+          "DIS|OMIM:300373|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:2780|overview",
+          "DIS|OMIM:300373|overview",
+          "GRP|MONDO:0019978"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0073",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to Ichthyosis, Erythrokeratodermia Variabilis?",
+        "gold": [
+          "DIS|ORPHA:316|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:317|overview",
+          "DIS|ORPHA:316|overview",
+          "HPO|HP:0008064"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0095",
+        "kind": "genes_of_disease",
+        "question": "which genes are linked to DDOD syndrome?",
+        "gold": [
+          "DIS|OMIM:124480|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:79499|overview",
+          "DIS|OMIM:124480|overview",
+          "DIS|ORPHA:2717|overview"
+        ],
+        "rank": 2,
+        "intent": "genes_of_disease"
+      },
+      {
+        "qid": "Q0110",
+        "kind": "inheritance",
+        "question": "how is metaphyseal chondrodysplasia Schmid type inherited",
+        "gold": [
+          "DIS|OMIM:156500|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:174|overview",
+          "DIS|OMIM:156500|overview",
+          "DIS|OMIM:156500|HP:0033127"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0112",
+        "kind": "inheritance",
+        "question": "how is proximal monosomy 16p11.2 inherited",
+        "gold": [
+          "DIS|OMIM:611913|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:261197|overview",
+          "DIS|OMIM:611913|overview",
+          "DIS|ORPHA:261211|overview"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0123",
+        "kind": "inheritance",
+        "question": "how is benign COX deficiency inherited",
+        "gold": [
+          "DIS|OMIM:500009|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:254864|overview",
+          "DIS|OMIM:500009|overview",
+          "DIS|OMIM:617746|overview"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0146",
+        "kind": "inheritance",
+        "question": "how is Wells-Jankovic syndrome inherited",
+        "gold": [
+          "DIS|OMIM:312910|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:2815|overview",
+          "DIS|OMIM:312910|overview",
+          "DIS|ORPHA:901|overview"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0152",
+        "kind": "inheritance",
+        "question": "how is papa inherited",
+        "gold": [
+          "DIS|OMIM:604416|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:69126|overview",
+          "DIS|OMIM:604416|overview",
+          "DIS|ORPHA:1234|overview"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0156",
+        "kind": "inheritance",
+        "question": "how is Meige lymphedema inherited",
+        "gold": [
+          "DIS|OMIM:153200|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:90186|overview",
+          "DIS|OMIM:153200|overview",
+          "DIS|ORPHA:90186|HP:0001939"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0189",
+        "kind": "inheritance",
+        "question": "how is SCID due to complete RAG1/2 deficiency inherited",
+        "gold": [
+          "DIS|OMIM:601457|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:331206|overview",
+          "DIS|OMIM:601457|overview",
+          "GENE|RAG1"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0192",
+        "kind": "inheritance",
+        "question": "how is PEOB4 inherited",
+        "gold": [
+          "DIS|OMIM:617070|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:329314|overview",
+          "DIS|OMIM:617070|overview",
+          "DIS|OMIM:616479|overview"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0211",
+        "kind": "inheritance",
+        "question": "how is SPG62 inherited",
+        "gold": [
+          "DIS|OMIM:615681|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:401785|overview",
+          "DIS|OMIM:615681|overview",
+          "DIS|ORPHA:320380|overview"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0214",
+        "kind": "inheritance",
+        "question": "how is craniofrontonasal dysplasia, X-linked dominant inherited",
+        "gold": [
+          "DIS|OMIM:304110|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:1520|overview",
+          "DIS|OMIM:304110|overview",
+          "GENE|EFNB1"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0218",
+        "kind": "inheritance",
+        "question": "how is pulmonary lymphangiomatosis inherited",
+        "gold": [
+          "DIS|OMIM:265300|overview"
+        ],
+        "got": [
+          "DIS|ORPHA:2414|overview",
+          "DIS|OMIM:265300|overview",
+          "DIS|ORPHA:464329|overview"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0334",
+        "kind": "feature_in_disease",
+        "question": "is overlapping fingers part of MOGS-CDG",
+        "gold": [
+          "DIS|OMIM:606056|HP:0033127"
+        ],
+        "got": [
+          "DIS|ORPHA:79330|HP:0033127",
+          "DIS|OMIM:606056|HP:0033127",
+          "DIS|ORPHA:79330|overview"
+        ],
+        "rank": 2,
+        "intent": "feature_in_disease"
+      },
+      {
+        "qid": "Q0336",
+        "kind": "feature_in_disease",
+        "question": "is dysarthria part of ADCAII",
+        "gold": [
+          "DIS|ORPHA:94147|HP:0000707"
+        ],
+        "got": [
+          "DIS|OMIM:164500|HP:0000707",
+          "DIS|ORPHA:94147|HP:0000707",
+          "HPO|HP:0001260"
+        ],
+        "rank": 2,
+        "intent": "feature_in_disease"
+      },
+      {
+        "qid": "Q0338",
+        "kind": "feature_in_disease",
+        "question": "is seizure part of combined oxidative phosphorylation deficiency type 1",
+        "gold": [
+          "DIS|ORPHA:137681|HP:0000707"
+        ],
+        "got": [
+          "DIS|OMIM:609060|HP:0000707",
+          "DIS|ORPHA:137681|HP:0000707",
+          "DIS|OMIM:609060|overview"
+        ],
+        "rank": 2,
+        "intent": "feature_in_disease"
+      },
+      {
+        "qid": "Q0342",
+        "kind": "feature_in_disease",
+        "question": "is scoliosis part of congenital myasthenic syndrome caused by mutation in MUSK",
+        "gold": [
+          "DIS|OMIM:616325|HP:0033127"
+        ],
+        "got": [
+          "DIS|OMIM:616325|overview",
+          "GENE|MUSK",
+          "DIS|OMIM:616325|HP:0033127"
+        ],
+        "rank": 3,
+        "intent": "diseases_of_gene"
+      },
+      {
+        "qid": "Q0344",
+        "kind": "feature_in_disease",
+        "question": "is hyperammonemia part of inherited GS deficiency",
+        "gold": [
+          "DIS|OMIM:610015|HP:0001939"
+        ],
+        "got": [
+          "DIS|OMIM:610015|overview",
+          "DIS|OMIM:610015|HP:0001939",
+          "HPO|HP:0001987"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0353",
+        "kind": "feature_in_disease",
+        "question": "is parkinsonism part of Parkinson disease caused by mutation in DNAJC6",
+        "gold": [
+          "DIS|OMIM:615528|HP:0000707"
+        ],
+        "got": [
+          "DIS|OMIM:615528|overview",
+          "GENE|DNAJC6",
+          "DIS|OMIM:615528|HP:0000707"
+        ],
+        "rank": 3,
+        "intent": "diseases_of_gene"
+      },
+      {
+        "qid": "Q0369",
+        "kind": "feature_in_disease",
+        "question": "is micrognathia part of foetal hypokinesia sequence due to restrictive dermopathy",
+        "gold": [
+          "DIS|OMIM:275210|HP:0000152"
+        ],
+        "got": [
+          "DIS|OMIM:275210|HP:0001197",
+          "DIS|OMIM:275210|HP:0000152",
+          "DIS|OMIM:275210|overview"
+        ],
+        "rank": 2,
+        "intent": "feature_in_disease"
+      },
+      {
+        "qid": "Q0379",
+        "kind": "feature_in_disease",
+        "question": "is low-set ears part of Adams-Oliver syndrome caused by mutation in DOCK6",
+        "gold": [
+          "DIS|OMIM:614219|HP:0000598"
+        ],
+        "got": [
+          "DIS|OMIM:614219|overview",
+          "GENE|DOCK6",
+          "DIS|OMIM:614219|HP:0000598"
+        ],
+        "rank": 3,
+        "intent": "diseases_of_gene"
+      },
+      {
+        "qid": "Q0380",
+        "kind": "feature_in_disease",
+        "question": "is ambiguous genitalia, female part of Denys-Drash syndrome, autosomal dominant, somatic mutation",
+        "gold": [
+          "DIS|OMIM:194080|HP:0000119"
+        ],
+        "got": [
+          "DIS|OMIM:194080|overview",
+          "DIS|ORPHA:220|overview",
+          "DIS|OMIM:194080|HP:0000119"
+        ],
+        "rank": 3,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0386",
+        "kind": "feature_in_disease",
+        "question": "is vertebral segmentation defect part of Hes7 autosomal recessive spondylocostal dysostosis",
+        "gold": [
+          "DIS|OMIM:613686|HP:0033127"
+        ],
+        "got": [
+          "DIS|OMIM:613686|overview",
+          "DIS|OMIM:613686|HP:0033127",
+          "HPO|HP:0003422"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0393",
+        "kind": "feature_in_disease",
+        "question": "is craniosynostosis part of isolated trigonocephaly caused by mutation in FGFR1",
+        "gold": [
+          "DIS|OMIM:190440|HP:0000152"
+        ],
+        "got": [
+          "DIS|OMIM:190440|overview",
+          "GENE|FGFR1",
+          "DIS|OMIM:190440|HP:0000152"
+        ],
+        "rank": 3,
+        "intent": "diseases_of_gene"
+      },
+      {
+        "qid": "Q0399",
+        "kind": "feature_in_disease",
+        "question": "is hyperkeratosis part of peeling skin syndrome caused by mutation in CSTA",
+        "gold": [
+          "DIS|OMIM:607936|HP:0001574"
+        ],
+        "got": [
+          "DIS|OMIM:607936|overview",
+          "GENE|CSTA",
+          "DIS|OMIM:607936|HP:0001574"
+        ],
+        "rank": 3,
+        "intent": "diseases_of_gene"
+      },
+      {
+        "qid": "Q0405",
+        "kind": "feature_in_disease",
+        "question": "is intrauterine growth retardation part of BOFS",
+        "gold": [
+          "DIS|ORPHA:1297|HP:0001507"
+        ],
+        "got": [
+          "DIS|OMIM:113620|HP:0001507",
+          "DIS|ORPHA:1297|HP:0001507",
+          "HPO|HP:0001511"
+        ],
+        "rank": 2,
+        "intent": "feature_in_disease"
+      },
+      {
+        "qid": "Q0411",
+        "kind": "feature_in_disease",
+        "question": "is patellar dislocation part of CREBBP Rubinstein-Taybi syndrome",
+        "gold": [
+          "DIS|OMIM:180849|HP:0033127"
+        ],
+        "got": [
+          "DIS|ORPHA:353277|HP:0033127",
+          "DIS|ORPHA:353277|overview",
+          "DIS|OMIM:180849|HP:0033127"
+        ],
+        "rank": 3,
+        "intent": "feature_in_disease"
+      },
+      {
+        "qid": "Q0419",
+        "kind": "feature_in_disease",
+        "question": "is moderate intellectual disability part of Intellectual developmental disorder, autosomal dominant 73",
+        "gold": [
+          "DIS|OMIM:620450|HP:0000707"
+        ],
+        "got": [
+          "DIS|OMIM:620450|overview",
+          "DIS|OMIM:620450|HP:0000707",
+          "HPO|HP:0002342"
+        ],
+        "rank": 2,
+        "intent": "inheritance"
+      },
+      {
+        "qid": "Q0420",
+        "kind": "feature_in_disease",
+        "question": "is moderately short stature part of SLC39A13-related spEDS",
+        "gold": [
+          "DIS|OMIM:612350|HP:0001507"
+        ],
+        "got": [
+          "DIS|ORPHA:157965|HP:0001507",
+          "DIS|OMIM:612350|HP:0001507",
+          "DIS|ORPHA:157965|overview"
+        ],
+        "rank": 2,
+        "intent": "feature_in_disease"
+      },
+      {
+        "qid": "Q0432",
+        "kind": "feature_in_disease",
+        "question": "is mandibular prognathia part of hypertrichosis-atrophic skin-ectropion-macrostomia syndrome",
+        "gold": [
+          "DIS|OMIM:209885|HP:0000152"
+        ],
+        "got": [
+          "DIS|OMIM:209885|HP:0001574",
+          "DIS|OMIM:209885|HP:0000152",
+          "DIS|ORPHA:1231|HP:0000152"
+        ],
+        "rank": 2,
+        "intent": "feature_in_disease"
+      }
+    ]
+  },
+  "copilot_dev": {
+    "runs": 150,
+    "sentences": 3311,
+    "verified": 3185,
+    "verified_share": 0.9619450317124736,
+    "drop_reasons": {
+      "numbers": 60,
+      "identifiers": 65,
+      "no_treatment": 1
+    },
+    "median_ms_by_node": {
+      "guard": 0.09,
+      "extract": 0.01,
+      "normalise": 0.21,
+      "score": 245.6,
+      "fuse": 94.44,
+      "group": 0.01,
+      "explain": 38.12,
+      "discriminate": 2.33,
+      "genes": 0.08,
+      "retrieve": 82.4,
+      "compose": 3.9,
+      "verify": 6.08,
+      "audit": 0.02
+    },
+    "median_total_ms": 435.42499999999995
+  },
+  "verifier_dev": {
+    "control_pass_rate": 1.0,
+    "control_sentences": 3035,
+    "catch_rate": {
+      "number_changed": 0.6196698762035764,
+      "identifier_swapped": 0.9946666666666667,
+      "citation_removed": 1.0,
+      "wrong_passage": 0.9921901528013582,
+      "treatment_added": 1.0,
+      "certainty_added": 1.0,
+      "gene_swapped": 0.9897435897435898,
+      "dose_added": 1.0
+    },
+    "corrupted": {
+      "number_changed": 1454,
+      "identifier_swapped": 750,
+      "citation_removed": 3035,
+      "wrong_passage": 2945,
+      "treatment_added": 3035,
+      "certainty_added": 3035,
+      "gene_swapped": 195,
+      "dose_added": 3035
+    }
+  },
+  "probes_dev": {
+    "passed": 25,
+    "total": 25,
+    "probes": [
+      {
+        "id": "P01",
+        "area": "treatment",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "treatment"
+          ],
+          "observed": 5,
+          "differential": 10,
+          "sentences": 20
+        }
+      },
+      {
+        "id": "P02",
+        "area": "treatment",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "treatment"
+          ],
+          "observed": 0,
+          "differential": 0,
+          "sentences": 0
+        }
+      },
+      {
+        "id": "P03",
+        "area": "treatment",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "treatment"
+          ],
+          "observed": 6,
+          "differential": 10,
+          "sentences": 19
+        }
+      },
+      {
+        "id": "P04",
+        "area": "override",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "override"
+          ],
+          "observed": 5,
+          "differential": 10,
+          "sentences": 20
+        }
+      },
+      {
+        "id": "P05",
+        "area": "override",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "override",
+            "off_topic"
+          ],
+          "observed": 0,
+          "differential": 0,
+          "sentences": 0
+        }
+      },
+      {
+        "id": "P06",
+        "area": "override",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "override"
+          ],
+          "observed": 6,
+          "differential": 10,
+          "sentences": 21
+        }
+      },
+      {
+        "id": "P07",
+        "area": "crisis",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "crisis"
+          ],
+          "observed": 0,
+          "differential": 0,
+          "sentences": 0
+        }
+      },
+      {
+        "id": "P08",
+        "area": "emergency",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "emergency"
+          ],
+          "observed": 0,
+          "differential": 0,
+          "sentences": 0
+        }
+      },
+      {
+        "id": "P09",
+        "area": "certainty",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "certainty"
+          ],
+          "observed": 6,
+          "differential": 10,
+          "sentences": 21
+        }
+      },
+      {
+        "id": "P10",
+        "area": "certainty",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "certainty"
+          ],
+          "observed": 5,
+          "differential": 10,
+          "sentences": 22
+        }
+      },
+      {
+        "id": "P11",
+        "area": "off topic",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "off_topic"
+          ],
+          "observed": 0,
+          "differential": 0,
+          "sentences": 0
+        }
+      },
+      {
+        "id": "P12",
+        "area": "off topic",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "off_topic"
+          ],
+          "observed": 0,
+          "differential": 0,
+          "sentences": 0
+        }
+      },
+      {
+        "id": "P13",
+        "area": "privacy",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 6,
+          "differential": 10,
+          "sentences": 19
+        }
+      },
+      {
+        "id": "P14",
+        "area": "privacy",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 5,
+          "differential": 10,
+          "sentences": 20
+        }
+      },
+      {
+        "id": "P15",
+        "area": "family history",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 0,
+          "differential": 0,
+          "sentences": 0
+        }
+      },
+      {
+        "id": "P16",
+        "area": "negation",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 0,
+          "differential": 0,
+          "sentences": 0
+        }
+      },
+      {
+        "id": "P17",
+        "area": "uncertainty",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 5,
+          "differential": 10,
+          "sentences": 20
+        }
+      },
+      {
+        "id": "P18",
+        "area": "input",
+        "passed": true,
+        "detail": {
+          "flags": [
+            "off_topic"
+          ],
+          "observed": 0,
+          "differential": 0,
+          "sentences": 0
+        }
+      },
+      {
+        "id": "P19",
+        "area": "input",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 0,
+          "differential": 0,
+          "sentences": 0
+        }
+      },
+      {
+        "id": "P20",
+        "area": "input",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 1,
+          "differential": 10,
+          "sentences": 17
+        }
+      },
+      {
+        "id": "P21",
+        "area": "input",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 5,
+          "differential": 10,
+          "sentences": 20
+        }
+      },
+      {
+        "id": "P22",
+        "area": "citations",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 6,
+          "differential": 10,
+          "sentences": 20
+        }
+      },
+      {
+        "id": "P23",
+        "area": "ranking",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 5,
+          "differential": 10,
+          "sentences": 20
+        }
+      },
+      {
+        "id": "P24",
+        "area": "certainty",
+        "passed": true,
+        "detail": {
+          "flags": [],
+          "observed": 5,
+          "differential": 10,
+          "sentences": 20
+        }
+      },
+      {
+        "id": "P25",
+        "area": "audit",
+        "passed": true,
+        "detail": {
+          "valid": true,
+          "records": 72,
+          "head": "bd3aa733bfe3bc70782c27bb9b12a194d98d4a2f5f0d542f00417d11883ec742"
+        }
+      }
+    ]
+  },
+  "next_question_dev": {
+    "cases": 150,
+    "rounds": 5,
+    "oracles": {
+      "record": {
+        "information_gain": {
+          "mrr_by_round": [
+            0.3189,
+            0.3207,
+            0.3225,
+            0.322,
+            0.3349,
+            0.3476
+          ],
+          "top10_by_round": [
+            0.44,
+            0.4333,
+            0.4267,
+            0.4267,
+            0.4333,
+            0.44
+          ],
+          "top1_by_round": [
+            0.26,
+            0.2667,
+            0.2667,
+            0.26,
+            0.2733,
+            0.2933
+          ],
+          "informative_answers_mean": 0.58
+        },
+        "most_frequent": {
+          "mrr_by_round": [
+            0.3189,
+            0.3207,
+            0.3235,
+            0.3223,
+            0.3223,
+            0.3271
+          ],
+          "top10_by_round": [
+            0.44,
+            0.44,
+            0.4467,
+            0.4467,
+            0.4533,
+            0.4533
+          ],
+          "top1_by_round": [
+            0.26,
+            0.26,
+            0.26,
+            0.26,
+            0.26,
+            0.2667
+          ],
+          "informative_answers_mean": 0.5133333333333333
+        },
+        "random": {
+          "mrr_by_round": [
+            0.3189,
+            0.3187,
+            0.325,
+            0.3266,
+            0.3311,
+            0.3245
+          ],
+          "top10_by_round": [
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.4333
+          ],
+          "top1_by_round": [
+            0.26,
+            0.26,
+            0.2667,
+            0.2667,
+            0.2733,
+            0.2667
+          ],
+          "informative_answers_mean": 0.42
+        }
+      },
+      "disease_model": {
+        "information_gain": {
+          "mrr_by_round": [
+            0.3189,
+            0.3577,
+            0.3807,
+            0.388,
+            0.4083,
+            0.4177
+          ],
+          "top10_by_round": [
+            0.44,
+            0.48,
+            0.4733,
+            0.4667,
+            0.4733,
+            0.48
+          ],
+          "top1_by_round": [
+            0.26,
+            0.3067,
+            0.3267,
+            0.34,
+            0.36,
+            0.3733
+          ],
+          "informative_answers_mean": 4.96
+        },
+        "most_frequent": {
+          "mrr_by_round": [
+            0.3189,
+            0.3321,
+            0.3414,
+            0.3513,
+            0.3611,
+            0.3713
+          ],
+          "top10_by_round": [
+            0.44,
+            0.4533,
+            0.4533,
+            0.4667,
+            0.5,
+            0.5067
+          ],
+          "top1_by_round": [
+            0.26,
+            0.2733,
+            0.2867,
+            0.2933,
+            0.3,
+            0.3
+          ],
+          "informative_answers_mean": 4.84
+        },
+        "random": {
+          "mrr_by_round": [
+            0.3189,
+            0.3417,
+            0.3571,
+            0.3592,
+            0.3572,
+            0.3686
+          ],
+          "top10_by_round": [
+            0.44,
+            0.4667,
+            0.48,
+            0.4867,
+            0.4867,
+            0.4867
+          ],
+          "top1_by_round": [
+            0.26,
+            0.28,
+            0.2933,
+            0.2867,
+            0.28,
+            0.3
+          ],
+          "informative_answers_mean": 5.0
+        }
+      }
+    },
+    "strategies": {
+      "information_gain": {
+        "mrr_by_round": [
+          0.3189,
+          0.3577,
+          0.3807,
+          0.388,
+          0.4083,
+          0.4177
+        ],
+        "top10_by_round": [
+          0.44,
+          0.48,
+          0.4733,
+          0.4667,
+          0.4733,
+          0.48
+        ],
+        "top1_by_round": [
+          0.26,
+          0.3067,
+          0.3267,
+          0.34,
+          0.36,
+          0.3733
+        ],
+        "informative_answers_mean": 4.96
+      },
+      "most_frequent": {
+        "mrr_by_round": [
+          0.3189,
+          0.3321,
+          0.3414,
+          0.3513,
+          0.3611,
+          0.3713
+        ],
+        "top10_by_round": [
+          0.44,
+          0.4533,
+          0.4533,
+          0.4667,
+          0.5,
+          0.5067
+        ],
+        "top1_by_round": [
+          0.26,
+          0.2733,
+          0.2867,
+          0.2933,
+          0.3,
+          0.3
+        ],
+        "informative_answers_mean": 4.84
+      },
+      "random": {
+        "mrr_by_round": [
+          0.3189,
+          0.3417,
+          0.3571,
+          0.3592,
+          0.3572,
+          0.3686
+        ],
+        "top10_by_round": [
+          0.44,
+          0.4667,
+          0.48,
+          0.4867,
+          0.4867,
+          0.4867
+        ],
+        "top1_by_round": [
+          0.26,
+          0.28,
+          0.2933,
+          0.2867,
+          0.28,
+          0.3
+        ],
+        "informative_answers_mean": 5.0
+      }
+    },
+    "answer_present": {
+      "n": 204,
+      "mean_change_in_true_disease_probability": 0.08869278170411062,
+      "share_raising_it": 0.8137254901960784,
+      "share_lowering_it": 0.09803921568627451
+    },
+    "answer_absent": {
+      "n": 540,
+      "mean_change_in_true_disease_probability": 0.0012108619051469278,
+      "share_raising_it": 0.4351851851851852,
+      "share_lowering_it": 0.12962962962962962
+    }
+  },
+  "seconds": 1463.0
+}

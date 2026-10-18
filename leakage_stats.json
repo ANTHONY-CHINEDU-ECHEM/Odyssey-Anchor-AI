@@ -1,0 +1,7 @@
+{
+  "eligible_cases": 9134,
+  "cases_pmid_cited": 0.7477556382745785,
+  "mean_share_of_true_disease_annotations_removed": 0.34512256049690115,
+  "cases_whose_true_disease_loses_every_annotation": 0.1973943507773155,
+  "rule": "an annotation is removed for a case when its only reference is the case's own paper"
+}

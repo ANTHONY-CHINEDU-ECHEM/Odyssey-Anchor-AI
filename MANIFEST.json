@@ -1,48 +1,35 @@
 {
-  "built_utc": "2026-10-17T19:55:09+00:00",
-  "hpoa_version": "2026-09-02",
-  "phenopacket_release": "0.1.27",
-  "treatment_sentences_removed_from_mondo": 1021,
-  "tables": {
-    "hpo_terms": {
-      "rows": 20482,
-      "sha256": "ca70ec0fec5d35bf9bfa35bda93440ae7f0ba74ebc0205f6cebd874612e49ace"
+  "downloaded_utc": "2026-10-17T19:51:16+00:00",
+  "files": {
+    "hp.json": {
+      "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/latest/download/hp.json",
+      "bytes": 21915519,
+      "sha256": "a7b3a012e7b4007a35a7cf8da35f2373b54cc16907f80d13d62470d31f833501",
+      "release": "http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.json"
     },
-    "hpo_edges": {
-      "rows": 24436,
-      "sha256": "a8efa766f133fd02d88cf7dd2c3574847ee0f3e9e8563132d5538cef0364b424"
+    "phenotype.hpoa": {
+      "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/latest/download/phenotype.hpoa",
+      "bytes": 35816037,
+      "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+      "release": "2026-09-02"
     },
-    "hpo_alt": {
-      "rows": 3975,
-      "sha256": "e5eaf48a92aa1e0339d66665d61f3393d844dff8351eaab9f458fce2fd8b3deb"
+    "genes_to_phenotype.txt": {
+      "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/latest/download/genes_to_phenotype.txt",
+      "bytes": 20821704,
+      "sha256": "507a17bff9c49e6329fbd88b1f91734fa7e9fdea5c06304044c0892eb6ab248c",
+      "release": null
     },
-    "annotations": {
-      "rows": 286651,
-      "sha256": "9311b4ba89c6f150dd0863d26ec8a912cb94a9a6c916ba9c0de9664caeb86817"
+    "mondo.json": {
+      "url": "https://github.com/monarch-initiative/mondo/releases/latest/download/mondo.json",
+      "bytes": 107871006,
+      "sha256": "ddbf0b88d8a91007ed55a01d579a418f68940f7f897d3dd55750ba966b3912ab",
+      "release": "http://purl.obolibrary.org/obo/mondo/releases/2026-10-06/mondo.owl"
     },
-    "mondo_classes": {
-      "rows": 32136,
-      "sha256": "6ec83420eea308404c04caf9d05e3b53f57413465757e1b9f5e1a57eedf3c352"
-    },
-    "mondo_edges": {
-      "rows": 46732,
-      "sha256": "a6b8ca3aa7c513eba28f69aa24256bdb8e57a05c5b37938bd3e2f226bd913d06"
-    },
-    "mondo_xrefs": {
-      "rows": 19132,
-      "sha256": "de952a0c95c379fb4c29dcf344aad835fcbbe5ec7308822e58a297f90c74baca"
-    },
-    "disease_genes": {
-      "rows": 12673,
-      "sha256": "03d9b1b7efb673f2d8de70d4c367b6b0f85618f139dd132f53d1413bddd691f7"
-    },
-    "diseases": {
-      "rows": 12880,
-      "sha256": "6bed24a96b3f1df2f064b7cbc97b287dcc6c7dbb046b9389f27d3e40be8885e2"
-    },
-    "cases": {
-      "rows": 10377,
-      "sha256": "6b7f6c1c9eda7c0b2f81fcbde9e1f54eac0e940f6f85db8aaf1d20573b91fa23"
+    "all_phenopackets.zip": {
+      "url": "https://github.com/monarch-initiative/phenopacket-store/releases/latest/download/all_phenopackets.zip",
+      "bytes": 19431098,
+      "sha256": "d0c70005bb09b87035087516252b6b539fbc0415be7c664b73c9cde7eedf205a",
+      "release": null
     }
   }
 }

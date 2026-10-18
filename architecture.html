@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Odyssey Anchor AI architecture</title>
+<style>
+  :root { --ink:#15201f; --ink2:#4b5958; --ink3:#7a8786; --rule:#cfd6d5; --paper:#ffffff; --band:#f4f6f5;
+          --sea:#0e5c66; --sea-soft:#e3eff0; --blue:#2a78d6; --blue-soft:#e6f0fb; --orange:#c4521f; --orange-soft:#fbeee6;
+          --green:#2f7a3e; --green-soft:#e6f2e8; --violet:#5a4bbd; --violet-soft:#eceafa; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 13px/1.35 "DejaVu Sans", "Public Sans", sans-serif; }
+  .canvas { width: 1600px; padding: 28px 30px 30px; }
+  h1 { font: 600 26px/1.2 "DejaVu Serif", Georgia, serif; margin: 0 0 4px; }
+  .sub { color: var(--ink2); margin: 0 0 18px; font-size: 14px; }
+  .lanes { display: grid; grid-template-columns: 170px 1fr; gap: 10px 14px; }
+  .lane-label { font-weight: 700; font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink3); padding-top: 12px; }
+  .lane { background: var(--band); border: 1px solid var(--rule); border-radius: 8px; padding: 12px; display: flex; gap: 10px; align-items: stretch; }
+  .box { background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 9px 10px; flex: 1; min-width: 0; }
+  .box b { display: block; font-size: 13.5px; margin-bottom: 3px; }
+  .box span { color: var(--ink2); font-size: 12px; display: block; }
+  .box .n { font-family: "DejaVu Sans Mono", monospace; font-size: 11.5px; color: var(--sea); margin-top: 4px; }
+  .src .box { border-top: 3px solid var(--ink3); }
+  .ing .box { border-top: 3px solid var(--violet); }
+  .kb .box { border-top: 3px solid var(--sea); }
+  .q .box { border-top: 3px solid var(--blue); flex: 1; }
+  .ev .box { border-top: 3px solid var(--orange); }
+  .ui .box { border-top: 3px solid var(--green); }
+  .arrow { align-self: center; color: var(--ink3); font-size: 18px; flex: 0 0 auto; }
+  .q { flex-wrap: wrap; }
+  .q .box { flex: 1 1 128px; }
+  .step { font-family: "DejaVu Sans Mono", monospace; font-size: 11px; color: var(--blue); font-weight: 700; }
+  .kb .box.wide { flex: 1.4; }
+  .note { margin-top: 14px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .note div { border-left: 3px solid var(--sea); padding: 4px 10px; color: var(--ink2); font-size: 12.5px; }
+  .note b { color: var(--ink); }
+  .legend { display: flex; gap: 18px; margin-top: 12px; font-size: 12px; color: var(--ink2); }
+  .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: -2px; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <h1>Odyssey Anchor AI: system architecture</h1>
+  <p class="sub">Phenotype driven rare disease differential with an ontology graph and passage retrieval copilot. Every number below is from the built system.</p>
+  <div class="lanes">
+    <div class="lane-label">Public sources</div>
+    <div class="lane src">
+      <div class="box"><b>Human Phenotype Ontology</b><span>terms, synonyms, definitions, is_a graph</span><div class="n">19,894 current terms</div></div>
+      <div class="box"><b>HPO disease annotations</b><span>disease to phenotype, frequency, onset, NOT, references</span><div class="n">286,651 rows, 12,880 diseases</div></div>
+      <div class="box"><b>Mondo disease ontology</b><span>unified disease identity, OMIM and Orphanet cross references, definitions</span><div class="n">32,136 classes</div></div>
+      <div class="box"><b>HPO gene links</b><span>gene to disease</span><div class="n">12,673 links</div></div>
+      <div class="box"><b>GA4GH phenopacket store</b><span>real published patients, used only for evaluation</span><div class="n">10,377 patients, 780 diseases</div></div>
+    </div>
+
+    <div class="lane-label">Ingestion</div>
+    <div class="lane ing">
+      <div class="box"><b>Download and fingerprint</b><span>release assets, SHA256 manifest, release versions</span></div>
+      <div class="arrow">→</div>
+      <div class="box"><b>Parse and normalise</b><span>obsolete and alternative identifiers mapped; frequencies to smoothed probabilities</span></div>
+      <div class="arrow">→</div>
+      <div class="box"><b>Treatment filter</b><span>every treatment, dosing or management sentence removed from definitions</span><div class="n">1,021 sentences removed</div></div>
+      <div class="arrow">→</div>
+      <div class="box"><b>Freeze before anything is built</b><span>cohort groups joined by shared disease; 25% blind; hashes recorded</span><div class="n">7,089 dev, 2,045 blind</div></div>
+    </div>
+
+    <div class="lane-label">Knowledge layer</div>
+    <div class="lane kb">
+      <div class="box wide"><b>Ontology graph</b><span>ancestor closure as a sparse matrix, depth, annotation information content, background frequency</span><div class="n">19,894 × 19,894 closure</div></div>
+      <div class="box wide"><b>Disease profiles</b><span>direct, propagated and NOT annotation matrices; strict index of single paper annotations</span><div class="n">1.1M propagated cells</div></div>
+      <div class="box wide"><b>Passage store</b><span>disease overviews, disease by organ system, phenotype terms, genes, Mondo groups; stable identifiers and references</span><div class="n">112,371 passages, 4.3M tokens</div></div>
+      <div class="box"><b>Text indexes</b><span>BM25 and 256 dimension latent semantic space over passages and over disease documents</span></div>
+      <div class="box"><b>Entity linker</b><span>disease names and synonyms, gene symbols, phenotype lexicon</span></div>
+    </div>
+
+    <div class="lane-label">Copilot state machine</div>
+    <div class="lane q">
+      <div class="box"><div class="step">1 guard</div><b>Redact and route</b><span>identifiers out; fixed paths for treatment, override, crisis, emergency, certainty, off topic</span></div>
+      <div class="box"><div class="step">2 extract</div><b>Read the note</b><span>longest match over 43,000 phrases; negation, family, uncertainty with spans</span></div>
+      <div class="box"><div class="step">3 normalise</div><b>Most specific terms</b><span>current HPO identifiers, ancestors dropped</span></div>
+      <div class="box"><div class="step">4 score</div><b>Every disease</b><span>likelihood ratio, Resnik both ways, overlap, BM25, LSA; strict removal in evaluation</span></div>
+      <div class="box"><div class="step">5 fuse</div><b>LambdaMART</b><span>shortlist from every ranker, 25 features, temperature calibrated softmax</span></div>
+      <div class="box"><div class="step">6 group</div><b>Mondo concepts</b><span>OMIM and Orphanet records merged; probability summed</span></div>
+      <div class="box"><div class="step">7 explain</div><b>Evidence subgraph</b><span>ontology path per patient term, contradictions, features to check</span></div>
+      <div class="box"><div class="step">8 discriminate</div><b>Next question</b><span>expected information gain over the leading candidates</span></div>
+      <div class="box"><div class="step">9 genes</div><b>Gene panel</b><span>pooled across records, weighted by probability</span></div>
+      <div class="box"><div class="step">10 retrieve</div><b>Graph plus text RAG</b><span>BM25, LSA and entity routes with the differential as context; learned ranker</span></div>
+      <div class="box"><div class="step">11 compose</div><b>Cited sentences</b><span>deterministic writer; optional language model writer</span></div>
+      <div class="box"><div class="step">12 verify</div><b>Sentence verifier</b><span>citations exist; words, numbers, identifiers, genes supported; no treatment, no certainty</span></div>
+      <div class="box"><div class="step">13 audit</div><b>Hash chain</b><span>redacted input and output appended, tamper evident</span></div>
+    </div>
+
+    <div class="lane-label">Evaluation harness</div>
+    <div class="lane ev">
+      <div class="box"><b>Strict protocol</b><span>annotations resting only on the patient's own paper removed before scoring</span></div>
+      <div class="box"><b>Grouped cross validation</b><span>five folds by cohort group, development only; pre-registered model choice</span></div>
+      <div class="box"><b>Single blind run</b><span>hash checked, timestamped in blind_runs.json</span></div>
+      <div class="box"><b>Stress tests</b><span>leakage, robustness, subgroups, calibration, next question simulation</span></div>
+      <div class="box"><b>Safety tests</b><span>verifier corruptions, 25 probes, extraction on rendered notes</span></div>
+    </div>
+
+    <div class="lane-label">Interfaces</div>
+    <div class="lane ui">
+      <div class="box"><b>FastAPI service</b><span>/v1/analyse, /v1/ask, /v1/extract, terms, diseases, passages, reports, audit</span></div>
+      <div class="box"><b>Single page interface</b><span>case desk, evidence paths, cited summary, results, leakage, safety, knowledge</span></div>
+      <div class="box"><b>Browser engine</b><span>JavaScript port of recognition, scoring and the ontology ranker; parity tested against Python</span></div>
+      <div class="box"><b>Command line and Make</b><span>data, freeze, index, tune, features, train, evaluate, evaluate_blind, bundle, web</span></div>
+    </div>
+  </div>
+  <div class="note">
+    <div><b>Two retrieval worlds.</b> The ontology graph ranks diseases from structured phenotypes; the passage store answers questions in words. Both point at the same identifiers, so every sentence can cite either.</div>
+    <div><b>Nothing unverified is shown.</b> The verifier sits between the composer and the clinician; a sentence that fails is dropped and logged, never softened.</div>
+    <div><b>Honest numbers.</b> The blind set is frozen before any index exists, scored once, and scored strictly so a patient never meets annotations taken from their own paper.</div>
+  </div>
+  <div class="legend"><span><i style="background:var(--ink3)"></i>sources</span><span><i style="background:var(--violet)"></i>ingestion</span><span><i style="background:var(--sea)"></i>knowledge</span><span><i style="background:var(--blue)"></i>runtime</span><span><i style="background:var(--orange)"></i>evaluation</span><span><i style="background:var(--green)"></i>interfaces</span></div>
+</div>
+</body>
+</html>

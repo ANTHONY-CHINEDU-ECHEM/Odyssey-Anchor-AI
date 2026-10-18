@@ -1,0 +1,1 @@
+{"type":"module","private":true,"name":"odyssey-anchor-web","scripts":{"test":"node --test tests/"}}

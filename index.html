@@ -1,0 +1,112 @@
+<title>Odyssey Anchor AI</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Public+Sans:wght@400;500;600;700&family=Spectral:wght@500;600&display=swap">
+<style>/*STYLES*/</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4.5" r="2.5" fill="none" stroke="var(--sea)" stroke-width="1.8"/><path d="M12 7v14M7 11h10M4.5 14.5c1 4 4 6.5 7.5 6.5s6.5-2.5 7.5-6.5" fill="none" stroke="var(--sea)" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <h1>Odyssey Anchor AI</h1>
+      <span class="tag">rare disease differential, verified</span>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Workspaces">
+      <button role="tab" data-view="case" aria-selected="true" id="tab-case">Case</button>
+      <button role="tab" data-view="results" aria-selected="false" id="tab-results">Blind results</button>
+      <button role="tab" data-view="leakage" aria-selected="false" id="tab-leakage">Leakage</button>
+      <button role="tab" data-view="safety" aria-selected="false" id="tab-safety">Safety</button>
+      <button role="tab" data-view="knowledge" aria-selected="false" id="tab-knowledge">Knowledge</button>
+      <button role="tab" data-view="method" aria-selected="false" id="tab-method">Method</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="view" id="view-case" aria-labelledby="tab-case">
+    <div class="desk">
+      <div class="col-a">
+        <div class="panel">
+          <h2>Patient record <span class="aside" id="record-aside"></span></h2>
+          <div class="source-switch">
+            <div class="seg" role="group" aria-label="Source">
+              <button id="src-teaching" aria-pressed="true">Published cases</button>
+              <button id="src-live" aria-pressed="false" disabled>Write a note</button>
+            </div>
+          </div>
+          <div id="teaching-box">
+            <label class="eyebrow" for="case-pick">Blind set teaching case</label>
+            <select id="case-pick" class="case-pick"></select>
+            <div class="case-meta" id="case-meta"></div>
+          </div>
+          <div id="live-box" hidden>
+            <label class="eyebrow" for="vignette">Start from an example note</label>
+            <select id="vignette" class="case-pick"></select>
+            <div class="row" style="margin-top:8px"><textarea id="note" spellcheck="false" aria-label="Clinical note"></textarea></div>
+            <div class="row">
+              <select id="sex" class="field" aria-label="Sex"><option value="UNKNOWN_SEX">Sex not given</option><option value="FEMALE">Female</option><option value="MALE">Male</option></select>
+              <input id="age" class="field age" type="number" min="0" max="120" step="0.5" placeholder="Age" aria-label="Age in years">
+              <button class="btn" id="analyse">Analyse</button>
+            </div>
+            <div class="marked" id="marked" hidden></div>
+            <div class="legend" id="legend" hidden><span class="l-present">present</span><span class="l-absent">recorded absent</span><span class="l-family">family history</span><span class="l-uncertain">uncertain</span></div>
+          </div>
+          <p class="loadnote" id="engine-status">Loading the browser engine and the knowledge base…</p>
+        </div>
+        <div class="panel">
+          <h2>Phenotype terms <span class="aside" id="terms-aside"></span></h2>
+          <div class="term-search" id="term-search" hidden>
+            <input class="field" id="term-input" placeholder="Add a phenotype, for example ptosis" autocomplete="off" aria-label="Add a phenotype term">
+            <ul id="term-list" role="listbox" hidden></ul>
+          </div>
+          <p class="eyebrow" style="margin:10px 0 6px">Recorded present</p>
+          <div class="chips" id="chips-present"></div>
+          <p class="eyebrow" style="margin:12px 0 6px">Recorded absent</p>
+          <div class="chips" id="chips-absent"></div>
+          <div id="chips-other"></div>
+        </div>
+      </div>
+      <div class="col-b">
+        <div class="panel">
+          <h2>Differential <span class="aside" id="diff-aside"></span></h2>
+          <div class="flagbar" id="flags"></div>
+          <ol class="diff" id="diff"></ol>
+        </div>
+        <div class="panel">
+          <h2>Next best questions <span class="aside">expected information gain</span></h2>
+          <div id="questions"></div>
+        </div>
+        <div class="panel">
+          <h2>Gene panel <span class="aside">weighted by probability</span></h2>
+          <div class="genes" id="genes"></div>
+        </div>
+      </div>
+      <div class="col-c">
+        <div class="panel" id="cand"></div>
+        <div class="panel">
+          <h2>Copilot summary <span class="aside" id="say-aside"></span></h2>
+          <div class="say" id="say"></div>
+          <div class="srcbox" id="srcbox" hidden></div>
+        </div>
+        <div class="panel">
+          <h2>Run trace <span class="aside">milliseconds per node</span></h2>
+          <div class="timings" id="timings"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="view-results" aria-labelledby="tab-results" hidden></section>
+  <section class="view" id="view-leakage" aria-labelledby="tab-leakage" hidden></section>
+  <section class="view" id="view-safety" aria-labelledby="tab-safety" hidden></section>
+  <section class="view" id="view-knowledge" aria-labelledby="tab-knowledge" hidden></section>
+  <section class="view" id="view-method" aria-labelledby="tab-method" hidden></section>
+</main>
+<div class="tip" id="tip" hidden></div>
+
+<script type="application/json" id="data-teaching">/*TEACHING*/</script>
+<script type="application/json" id="data-report">/*REPORT*/</script>
+<script type="application/json" id="data-vignettes">/*VIGNETTES*/</script>
+<script type="text/plain" id="data-bundle">/*BUNDLE*/</script>
+<script>/*SCRIPT*/</script>

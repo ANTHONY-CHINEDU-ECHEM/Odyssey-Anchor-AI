@@ -1,0 +1,20 @@
+[
+  {"title": "Illustrative note: tall teenager with lens dislocation",
+   "sex": "MALE", "age": 14,
+   "note": "Referral for genetics review. Patient name: Daniel Okoro, NHS 943 476 5919.\n14 year old boy, tall for his family, with long thin fingers (arachnodactyly), pectus excavatum and bilateral ectopia lentis found by the optometrist. Echo shows aortic root dilatation. Joint hypermobility and striae on the back. No intellectual disability and no seizures. His father is also tall and wears glasses for myopia."},
+  {"title": "Illustrative note: short stature and pulmonary valve stenosis",
+   "sex": "FEMALE", "age": 3,
+   "note": "Three year old girl seen for short stature. Pulmonic stenosis was found on echo in infancy. On examination there is hypertelorism, ptosis, low-set ears and a webbed neck. Mild global developmental delay. No seizures. Possible bleeding tendency after a dental extraction. Her mother has a similar facial appearance."},
+  {"title": "Illustrative note: infant with fever triggered seizures",
+   "sex": "FEMALE", "age": 2,
+   "note": "Two year old girl with seizures that began at six months with prolonged febrile seizures, now also afebrile myoclonic seizures and episodes of status epilepticus earlier this year. Developmental regression since 18 months with ataxia. MRI brain was normal. No microcephaly, no dysmorphic features."},
+  {"title": "Illustrative note: girl with regression and hand movements",
+   "sex": "FEMALE", "age": 4,
+   "note": "Four year old girl. Normal development for the first year, then loss of purposeful hand use and loss of speech. She now has stereotyped hand wringing movements, deceleration of head growth with acquired microcephaly, gait ataxia and episodes of breath holding and hyperventilation. Seizures started at three years. No hepatosplenomegaly."},
+  {"title": "Illustrative note: skin and brain findings",
+   "sex": "MALE", "age": 7,
+   "note": "Seven year old boy with infantile spasms in the first year and ongoing focal seizures. Multiple hypomelanotic macules on the trunk, facial angiofibromas and a shagreen patch. MRI shows cortical tubers and subependymal nodules. Renal ultrasound shows renal angiomyolipomas. Intellectual disability and autism. Echo in infancy: cardiac rhabdomyoma."},
+  {"title": "Illustrative note: happy demeanour and absent speech",
+   "sex": "MALE", "age": 5,
+   "note": "Five year old boy with severe developmental delay and absent speech. Frequent laughter with a happy demeanour, a wide based ataxic gait with jerky movements, and seizures from age two. Microcephaly. Sleep disturbance. He is fascinated by water. No hypotonia was recorded at birth, and hearing is normal."}
+]

@@ -1,5 +1,8 @@
 # Odyssey Anchor AI
 
+**Phenotype driven rare disease differential diagnosis with a verified graph retrieval copilot. A Bayesian and semantic ranker scores all 12,880 annotated diseases; a constrained learned ranker fuses and calibrates them; every candidate comes with its evidence path.**
+
+
 <p align="center">
 <img width="2400" height="1770" alt="architecture" src="https://github.com/user-attachments/assets/34944343-55e8-4080-a25c-e70d454c409c" />
 </p>
@@ -14,7 +17,7 @@ SOURCE: <https://hpo.jax.org> · <https://mondo.monarchinitiative.org> · <https
 SOURCE: https://www.facebook.com/HealthyLivingMo/posts/the-zebra-is-the-official-symbol-of-rare-diseases-in-the-united-states-and-is-no/326766529492591/
 
 
-**Phenotype driven rare disease differential diagnosis with a verified graph retrieval copilot. A Bayesian and semantic ranker scores all 12,880 annotated diseases; a constrained learned ranker fuses and calibrates them; every candidate comes with its evidence path, the next question that best separates the leaders, a gene panel, and answers drawn from a 112,371 passage knowledge base in which every sentence is cited and verified. Built entirely on public data and scored once, under a strict anti leakage protocol, on 2,045 real published patients whose diseases and genes were never seen during development.**
+**The next question that best separates the leaders, a gene panel, and answers drawn from a 112,371 passage knowledge base in which every sentence is cited and verified. Built entirely on public data and scored once, under a strict anti leakage protocol, on 2,045 real published patients whose diseases and genes were never seen during development.**
 
 ## Project brief
 

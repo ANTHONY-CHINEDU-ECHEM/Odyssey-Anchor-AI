@@ -48,8 +48,6 @@ The evaluation is built to be believed. Before any index or model existed, the p
 
 The whole system runs in the browser: the recogniser, both scorers, the ontology ranker, the explainer and the next best question were ported to JavaScript and checked against the Python outputs. The twelve published cases carry the full product run (fused ranker, knowledge retrieval, verified sentences) under the strict protocol.
 
-**[Open Odyssey Anchor AI](https://claude.ai/artifact/CcHxL4Jk3cRwguDZ5zyCFn)**
-
 To run the full service with the knowledge retrieval copilot, see Running it below.
 
 ## Screenshots
